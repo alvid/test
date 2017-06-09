@@ -1,0 +1,127 @@
+Jun  9 15:51:24 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodInvite
+Jun  9 15:51:25 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodInvite
+Jun  9 15:51:25 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:51:25 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] Incoming kSigMethodInvite id:61A13CC_62
+Jun  9 15:51:25 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] send reply kSigMethodInvite id:61A13CC_62
+Jun  9 15:51:25 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] [CALL ce60b2a5] call_sigMessageReceived message: kSigMethodInvite
+Jun  9 15:51:25 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodInvite
+Jun  9 15:51:25 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodInvite
+Jun  9 15:51:25 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:51:25 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] Incoming kSigMethodInvite id:61A13CC_62
+Jun  9 15:51:25 iPhone-6 Button[4139] <Notice>: [voe] [VOE_WRN] resend reply kSigMethodInvite id:61A13CC_62
+Jun  9 15:51:26 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] send message kSigMethodOk, id:3EC998BF_69
+Jun  9 15:51:26 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodOk
+Jun  9 15:51:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] send message kSigMethodICEcandidate, id:3EC998BF_70
+Jun  9 15:51:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodICEcandidate
+Jun  9 15:51:27 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodReply
+Jun  9 15:51:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:51:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] message kSigMethodOk id:3EC998BF_69 has been confirmed, by 58DCE9D6DD51840FA1000116 device
+Jun  9 15:51:27 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodReply
+Jun  9 15:51:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:51:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] message kSigMethodICEcandidate id:3EC998BF_70 has been confirmed, by 58DCE9D6DD51840FA1000116 device
+Jun  9 15:51:27 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodICEcandidate
+Jun  9 15:51:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodICEcandidate
+Jun  9 15:51:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:51:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] Incoming kSigMethodICEcandidate id:61A13CC_63
+Jun  9 15:51:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] send reply kSigMethodICEcandidate id:61A13CC_63
+Jun  9 15:51:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] [CALL ce60b2a5] call_sigMessageReceived message: kSigMethodICEcandidate
+Jun  9 15:52:08 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodInvite
+Jun  9 15:52:08 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodInvite
+Jun  9 15:52:08 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:52:08 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] Incoming kSigMethodInvite id:165254E5_1
+Jun  9 15:52:08 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] send reply kSigMethodInvite id:165254E5_1
+Jun  9 15:52:08 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] [CALL 0df53937] call_sigMessageReceived message: kSigMethodInvite
+Jun  9 15:52:17 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] send message kSigMethodSessionChange, id:3EC998BF_71
+Jun  9 15:52:17 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodSessionChange
+Jun  9 15:52:17 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] send message kSigMethodOk, id:3EC998BF_72
+Jun  9 15:52:17 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodOk
+Jun  9 15:52:18 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodReply
+Jun  9 15:52:18 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:52:18 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] message kSigMethodSessionChange id:3EC998BF_71 has been confirmed, by 58DCE9D6DD51840FA1000116 device
+Jun  9 15:52:18 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] send message kSigMethodICEcandidate, id:3EC998BF_73
+Jun  9 15:52:18 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodICEcandidate
+Jun  9 15:52:20 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] resend unconfirmed message kSigMethodOk id:3EC998BF_72
+Jun  9 15:52:20 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodOk
+Jun  9 15:52:21 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] resend unconfirmed message kSigMethodICEcandidate id:3EC998BF_73
+Jun  9 15:52:21 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodICEcandidate
+Jun  9 15:52:23 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] resend unconfirmed message kSigMethodOk id:3EC998BF_72
+Jun  9 15:52:23 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodOk
+Jun  9 15:52:24 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] resend unconfirmed message kSigMethodICEcandidate id:3EC998BF_73
+Jun  9 15:52:24 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodICEcandidate
+Jun  9 15:52:26 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] resend unconfirmed message kSigMethodOk id:3EC998BF_72
+Jun  9 15:52:26 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodOk
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] resend unconfirmed message kSigMethodICEcandidate id:3EC998BF_73
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodICEcandidate
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodRinging
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodRinging
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodRinging
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodRinging
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] Incoming kSigMethodRinging id:165254E5_2
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] send reply kSigMethodRinging id:165254E5_2
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] [CALL 0df53937] call_sigMessageReceived message: kSigMethodRinging
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodRinging
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] Incoming kSigMethodRinging id:165254E5_2
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_WRN] resend reply kSigMethodRinging id:165254E5_2
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodRinging
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] Incoming kSigMethodRinging id:165254E5_2
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [VOE_WRN] resend reply kSigMethodRinging id:165254E5_2
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodReply
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodRinging
+Jun  9 15:52:27 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodRinging
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] message kSigMethodOk id:3EC998BF_72 has been confirmed, by 5919AF72BF6CBC0FA20002C2 device
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodRinging
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] Incoming kSigMethodRinging id:165254E5_3
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] send reply kSigMethodRinging id:165254E5_3
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] [CALL 0df53937] call_sigMessageReceived message: kSigMethodRinging
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodRinging
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] Incoming kSigMethodRinging id:165254E5_2
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_WRN] resend reply kSigMethodRinging id:165254E5_2
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] message kSigMethodICEcandidate id:3EC998BF_73 has been confirmed, by 5919AF72BF6CBC0FA20002C2 device
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_WRN] unknown reply kSigMethodReply id:3EC998BF_72, ignored
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_WRN] unknown reply kSigMethodReply id:3EC998BF_73, ignored
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_WRN] unknown reply kSigMethodReply id:3EC998BF_72, ignored
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_WRN] unknown reply kSigMethodReply id:3EC998BF_73, ignored
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_WRN] unknown reply kSigMethodReply id:3EC998BF_72, ignored
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_WRN] unknown reply kSigMethodReply id:3EC998BF_73, ignored
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodICEcandidate
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodICEcandidate
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] Incoming kSigMethodICEcandidate id:165254E5_4
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] send reply kSigMethodICEcandidate id:165254E5_4
+Jun  9 15:52:28 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] [CALL 0df53937] call_sigMessageReceived message: kSigMethodICEcandidate
+Jun  9 15:53:00 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodBye
+Jun  9 15:53:00 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodBye
+Jun  9 15:53:00 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:53:00 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] Incoming kSigMethodBye id:165254E5_5
+Jun  9 15:53:00 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] send reply kSigMethodBye id:165254E5_5
+Jun  9 15:53:00 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] [CALL 0df53937] call_sigMessageReceived message: kSigMethodBye
+Jun  9 15:53:00 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] send message kSigMethodSessionChange, id:3EC998BF_74
+Jun  9 15:53:00 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodSessionChange
+Jun  9 15:53:01 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodReply
+Jun  9 15:53:01 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:53:01 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] message kSigMethodSessionChange id:3EC998BF_74 has been confirmed, by 58DCE9D6DD51840FA1000116 device
+Jun  9 15:53:29 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] send message kSigMethodBye, id:3EC998BF_75
+Jun  9 15:53:29 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodBye
+Jun  9 15:53:30 iPhone-6 Button[4139] <Notice>: [voe] [SIG] rcv: kSigMethodReply
+Jun  9 15:53:30 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] _type:          kSigMethodReply
+Jun  9 15:53:30 iPhone-6 Button[4139] <Notice>: [voe] [VOE_WRN] unknown reply kSigMethodReply id:3EC998BF_75, ignored

@@ -1,0 +1,43 @@
+A-C:
+Jun  9 15:53:00 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] 
+Ssrc 13549021
+BytesReceived 1953384815
+BytesSent 77377
+PacketsLost 0
+PacketsReceived 1935822702
+PacketsSent 1570
+JitterBufferMs 539568242
+RetransmitBitrate 1702060655
+Rtt 348
+Jun  9 15:53:00 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] 
+Ssrc 13549019
+BytesReceived 77517
+BytesSent 1835103347
+PacketsLost 0
+PacketsReceived 1554
+PacketsSent -183054356
+JitterBufferMs 257
+RetransmitBitrate 1701669236
+Rtt 1701736314
+
+A-B:
+Jun  9 15:53:30 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] 
+Ssrc 13081550
+BytesReceived 16556562
+BytesSent 254728
+PacketsLost 7
+PacketsReceived 1
+PacketsSent 6037
+JitterBufferMs 1
+RetransmitBitrate 16556562
+Rtt 415
+Jun  9 15:53:30 iPhone-6 Button[4139] <Notice>: [voe] [VOE_DBG] 
+Ssrc 13081548
+BytesReceived 242988
+BytesSent 1
+PacketsLost 11
+PacketsReceived 5995
+PacketsSent 1886614636
+JitterBufferMs 163
+RetransmitBitrate -1431708416
+Rtt 1
