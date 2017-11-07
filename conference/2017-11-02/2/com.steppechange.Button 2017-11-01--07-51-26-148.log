@@ -1,0 +1,1318 @@
+2017-11-01 10:51:26 +[VIMLogger enableFileLogging] <426124> [Debug] VIMLogger has been loaded
+2017-11-01 10:51:26 +[VIMLogger enableFileLogging] <426124> [Debug] VIMVersion is 0.4.8
+2017-11-01 10:51:27 -[VIMApiRequestExecutor executeRequest:success:failure:] <426190> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-01 10:51:27 -[VIMApiRequestExecutor executeRequest:success:failure:] <426190> [Debug] <VIMOnboardingVersionsRequest: 0x1702270e0 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 10:51:27 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:] <426124> [Debug] Start onboarding startup flow
+2017-11-01 10:51:27 -[VIMIdmServiceImpl refreshAccessTokenWithCompletion:] <426124> [Debug] Asked to refresh access token. refresh token: b54ea402-16c1-4bec-a786-b80d4883ce99
+2017-11-01 10:51:27 -[VIMApiRequestExecutor executeRequest:success:failure:] <426201> [Debug] https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh
+2017-11-01 10:51:27 -[VIMApiRequestExecutor executeRequest:success:failure:] <426201> [Debug] <VIMIdmRefreshTokenRequest: 0x174257040 method=POST path=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh Headers: (null)
+ Body:{"refresh_token":"b54ea402-16c1-4bec-a786-b80d4883ce99","grant_type":"refresh_token"}
+2017-11-01 10:51:27 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <426124> [Debug] HTTP Response ERROR 
+Error: (0) Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x1742527e0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "(null)" UserInfo={_kCFStreamErrorCodeKey=50, _kCFStreamErrorDomainKey=1}}, NSErrorFailingURLStringKey=https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions, NSErrorFailingURLKey=https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions, _kCFStreamErrorDomainKey=1, _kCFStreamErrorCodeKey=50, NSLocalizedDescription=The Internet connection appears to be offline.}
+ Headers: (null)
+ Response Body: 
+2017-11-01 10:51:28 -[VIMForceUpdateFlowCoordinator runForceUpdateCheck]_block_invoke <426124> [Error] Failed to check for update: Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x1742527e0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "(null)" UserInfo={_kCFStreamErrorCodeKey=50, _kCFStreamErrorDomainKey=1}}, NSErrorFailingURLStringKey=https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions, NSErrorFailingURLKey=https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions, _kCFStreamErrorDomainKey=1, _kCFStreamErrorCodeKey=50, NSLocalizedDescription=The Internet connection appears to be offline.}
+2017-11-01 10:51:28 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <426124> [Debug] HTTP Response ERROR 
+Error: (0) Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x174054af0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "(null)" UserInfo={_kCFStreamErrorCodeKey=50, _kCFStreamErrorDomainKey=1}}, NSErrorFailingURLStringKey=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh, NSErrorFailingURLKey=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh, _kCFStreamErrorDomainKey=1, _kCFStreamErrorCodeKey=50, NSLocalizedDescription=The Internet connection appears to be offline.}
+ Headers: (null)
+ Response Body: 
+2017-11-01 10:51:28 -[VIMApiRequestExecutor executeRequest:success:failure:] <426152> [Debug] https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh
+2017-11-01 10:51:28 -[VIMApiRequestExecutor executeRequest:success:failure:] <426152> [Debug] <VIMIdmRefreshTokenRequest: 0x1702468a0 method=POST path=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh Headers: (null)
+ Body:{"refresh_token":"b54ea402-16c1-4bec-a786-b80d4883ce99","grant_type":"refresh_token"}
+2017-11-01 10:51:28 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <426124> [Debug] HTTP Response ERROR 
+Error: (0) Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x1742574f0 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "(null)" UserInfo={_kCFStreamErrorCodeKey=50, _kCFStreamErrorDomainKey=1}}, NSErrorFailingURLStringKey=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh, NSErrorFailingURLKey=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh, _kCFStreamErrorDomainKey=1, _kCFStreamErrorCodeKey=50, NSLocalizedDescription=The Internet connection appears to be offline.}
+ Headers: (null)
+ Response Body: 
+2017-11-01 10:51:29 -[VIMApiRequestExecutor executeRequest:success:failure:] <426152> [Debug] https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh
+2017-11-01 10:51:29 -[VIMApiRequestExecutor executeRequest:success:failure:] <426152> [Debug] <VIMIdmRefreshTokenRequest: 0x170253c20 method=POST path=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh Headers: (null)
+ Body:{"refresh_token":"b54ea402-16c1-4bec-a786-b80d4883ce99","grant_type":"refresh_token"}
+2017-11-01 10:51:29 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <426124> [Debug] HTTP Response ERROR 
+Error: (0) Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x170055420 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "(null)" UserInfo={_kCFStreamErrorCodeKey=50, _kCFStreamErrorDomainKey=1}}, NSErrorFailingURLStringKey=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh, NSErrorFailingURLKey=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh, _kCFStreamErrorDomainKey=1, _kCFStreamErrorCodeKey=50, NSLocalizedDescription=The Internet connection appears to be offline.}
+ Headers: (null)
+ Response Body: 
+2017-11-01 10:51:29 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:]_block_invoke <426124> [Debug] Onboarding startup flow is finished with result: 1
+2017-11-01 10:51:29 -[VIMUserAccountServiceImpl clear] <426124> [Debug] User data was cleaned
+2017-11-01 10:51:29 -[VIMIdmAuthorizationDataCache invalidate] <426124> [Debug] Cleaned auth data from keychain: <VIMIdmAuthorizationData: 0x17005c860 accessToken:e5126c02-8893-47aa-8413-a12595aceafd refreshToken:b54ea402-16c1-4bec-a786-b80d4883ce99 creationDate:2017-10-31 13:44:07 +0000 expiresIn:18000.000000> persistent:1
+2017-11-01 10:51:45 -[VIMUserAccountServiceImpl clear] <426124> [Debug] User data was cleaned
+2017-11-01 10:51:45 -[VIMIdmAuthorizationDataCache invalidate] <426124> [Debug] Cleaned auth data from keychain: (null) persistent:1
+2017-11-01 10:51:45 -[VIMOnboardingFlowCoordinatorImpl startAuthenticationFlow] <426124> [Debug] Returning user msisdn found 380689000999
+2017-11-01 10:51:45 -[VIMApiRequestExecutor executeRequest:success:failure:] <426447> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/services?msisdn=380689000999
+2017-11-01 10:51:45 -[VIMApiRequestExecutor executeRequest:success:failure:] <426447> [Debug] <VIMOnboardingDiscoveryRequest: 0x17403ba80 method=GET path=wayf/idm/v02/services Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 10:51:45 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <426124> [Debug] HTTP Response ERROR 
+Error: (0) Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo={NSUnderlyingError=0x170245310 {Error Domain=kCFErrorDomainCFNetwork Code=-1009 "(null)" UserInfo={_kCFStreamErrorCodeKey=50, _kCFStreamErrorDomainKey=1}}, NSErrorFailingURLStringKey=https://int-uat.buttonhub.com/wayf/idm/v02/services?msisdn=380689000999, NSErrorFailingURLKey=https://int-uat.buttonhub.com/wayf/idm/v02/services?msisdn=380689000999, _kCFStreamErrorDomainKey=1, _kCFStreamErrorCodeKey=50, NSLocalizedDescription=The Internet connection appears to be offline.}
+ Headers: (null)
+ Response Body: 
+2017-11-01 10:52:51 -[VIMApiRequestExecutor executeRequest:success:failure:] <427157> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-01 10:52:51 -[VIMApiRequestExecutor executeRequest:success:failure:] <427157> [Debug] <VIMOnboardingVersionsRequest: 0x170227140 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 10:52:59 +[VIMLogger enableFileLogging] <427604> [Debug] VIMLogger has been loaded
+2017-11-01 10:52:59 +[VIMLogger enableFileLogging] <427604> [Debug] VIMVersion is 0.4.8
+2017-11-01 10:53:00 -[VIMUserAccountServiceImpl clear] <427604> [Debug] User data was cleaned
+2017-11-01 10:53:00 -[VIMIdmAuthorizationDataCache invalidate] <427604> [Debug] Cleaned auth data from keychain: (null) persistent:0
+2017-11-01 10:53:00 -[VIMOnboardingFlowCoordinatorImpl startAuthenticationFlow] <427604> [Debug] Returning user msisdn found 380689000999
+2017-11-01 10:53:00 -[VIMApiRequestExecutor executeRequest:success:failure:] <427643> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/services?msisdn=380689000999
+2017-11-01 10:53:00 -[VIMApiRequestExecutor executeRequest:success:failure:] <427643> [Debug] <VIMOnboardingDiscoveryRequest: 0x17022a9e0 method=GET path=wayf/idm/v02/services Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 10:53:01 -[VIMNetworkServiceImpl performAuthChallenge:credential:] <427638> [Warn] The authentication challenge is cancelled! authenticationMethod != NSURLAuthenticationMethodServerTrust (certificate validation).
+2017-11-01 10:53:01 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <427604> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 3296;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 07:53:00 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.176:8098";
+    "X-Unique-ID" = "5DBBBE94:D420_0A0A028C:01BB_59F97D5C_0015:50AA";
+} 
+Body: {
+    country = UA;
+    endpoints =     {
+        associate =         {
+            url = "https://int-uat.buttonhub.com/relying-party";
+        };
+        associationStatus =         {
+            url = "https://int-uat.buttonhub.com/relying-party";
+        };
+        autoTopUpInfo =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        availableLines =         {
+            url = "https://int-uat.buttonhub.com/line-switcher";
+        };
+        availablePaymentMeans =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        categorizedOffers =         {
+            url = "https://int-uat.buttonhub.com/subscription";
+        };
+        createAutoTopUpInfo =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        createTopUp =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        createUserProfile =         {
+            url = "https://int-uat.buttonhub.com/account-manager";
+        };
+        deactivateUserProfile =         {
+            url = "https://int-uat.buttonhub.com/account-manager";
+        };
+        deleteAutoTopUpInfo =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        deletePaymentMeans =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        deviceVerificationChallenge =         {
+            url = "https://int-uat.buttonhub.com/sms-verification";
+        };
+        deviceVerificationProof =         {
+            url = "https://int-uat.buttonhub.com/sms-verification";
+        };
+        emailVerificationProof =         {
+            url = "https://int-uat.buttonhub.com/email-verification";
+        };
+        getConsents =         {
+            url = "https://int-uat.buttonhub.com/consents";
+        };
+        getConsentsForSettings =         {
+            url = "https://int-uat.buttonhub.com/consents";
+        };
+        getFAQ =         {
+            url = "https://int-uat.buttonhub.com/faq";
+        };
+        initiatePaymentMeansAddition =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        listSubscribedChannels =         {
+            url = "https://int-uat.buttonhub.com/user-interaction";
+        };
+        logout =         {
+            url = "https://int-uat.buttonhub.com/token-manager";
+        };
+        markAsDefaultPaymentMeans =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        mgm2Operations =         {
+            url = "https://int-uat.buttonhub.com/mgm2";
+        };
+        mgmOperations =         {
+            url = "https://int-uat.buttonhub.com/mgm";
+        };
+        migration =         {
+            url = "https://int-uat.buttonhub.com/migration";
+        };
+        onboardingState =         {
+            url = "https://int-uat.buttonhub.com/wayf";
+        };
+        passwordAuthenticate =         {
+            url = "https://int-uat.buttonhub.com/token-manager";
+        };
+        passwordResetInitialize =         {
+            url = "https://int-uat.buttonhub.com/token-manager";
+        };
+        passwordSet =         {
+            url = "https://int-uat.buttonhub.com/token-manager";
+        };
+        passwordUpdate =         {
+            url = "https://int-uat.buttonhub.com/token-manager";
+        };
+        recommendedOffers =         {
+            url = "https://int-uat.buttonhub.com/subscription";
+        };
+        refreshToken =         {
+            url = "https://int-uat.buttonhub.com/token-manager";
+        };
+        removeAssociation =         {
+            url = "https://int-uat.buttonhub.com/relying-party";
+        };
+        retrieveSinglePaymentMeans =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        retrieveUserInfo =         {
+            url = "https://int-uat.buttonhub.com/account-manager";
+        };
+        revokeToken =         {
+            url = "https://int-uat.buttonhub.com/token-manager";
+        };
+        services =         {
+            url = "https://int-uat.buttonhub.com/subscription";
+        };
+        singleTopUpInfo =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        subscribeChannel =         {
+            url = "https://int-uat.buttonhub.com/user-interaction";
+        };
+        subscriptionInfo =         {
+            url = "https://int-uat.buttonhub.com/subscription";
+        };
+        topUpHistory =         {
+            url = "https://int-uat.buttonhub.com/subscription";
+        };
+        unSubscribeChannel =         {
+            url = "https://int-uat.buttonhub.com/user-interaction";
+        };
+        updateConsents =         {
+            url = "https://int-uat.buttonhub.com/consents";
+        };
+        updateConsentsForSettings =         {
+            url = "https://int-uat.buttonhub.com/consents";
+        };
+        updateFAQ =         {
+            url = "https://int-uat.buttonhub.com/faq";
+        };
+        updateUserInfo =         {
+            url = "https://int-uat.buttonhub.com/account-manager";
+        };
+    };
+}
+2017-11-01 10:53:01 -[VIMApiRequestExecutor executeRequest:success:failure:] <427642> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-01 10:53:01 -[VIMApiRequestExecutor executeRequest:success:failure:] <427642> [Debug] <VIMOnboardingVersionsRequest: 0x17422dd40 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 10:53:01 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <427604> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 57;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 07:53:00 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.193:8098";
+} 
+Body: {
+    android =     (
+        "1.2",
+        "2.0.0"
+    );
+    ios =     (
+        "1.2",
+        "2.0.0",
+        "2.0.1"
+    );
+}
+2017-11-01 10:53:01 -[VIMApiRequestExecutor executeRequest:success:failure:] <427629> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/onboarding?msisdn=380689000999
+2017-11-01 10:53:01 -[VIMApiRequestExecutor executeRequest:success:failure:] <427629> [Debug] <VIMOnboardingStateInfoRequest: 0x17024cc60 method=GET path=https://int-uat.buttonhub.com/wayf/idm/v02/onboarding Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 10:53:03 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <427604> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 71;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 07:53:03 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.241:8098";
+    "X-Unique-ID" = "5DBBBE94:D420_0A0A028C:01BB_59F97D5C_0017:50AA";
+} 
+Body: {
+    state = "63b06264-b757-494c-8186-30b2980e18e7";
+    status = WithAccount;
+}
+2017-11-01 10:53:09 -[VIMApiRequestExecutor executeRequest:success:failure:] <427651> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/onboarding?msisdn=380689000999
+2017-11-01 10:53:09 -[VIMApiRequestExecutor executeRequest:success:failure:] <427651> [Debug] <VIMOnboardingStateInfoRequest: 0x1744542e0 method=GET path=https://int-uat.buttonhub.com/wayf/idm/v02/onboarding Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 10:53:11 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <427604> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    Connection = close;
+    "Content-Length" = 71;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 07:53:11 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.33:8098";
+    "X-Unique-ID" = "5DBBBE94:D420_0A0A028C:01BB_59F97D5F_0018:50AA";
+} 
+Body: {
+    state = "25a65abb-b780-40d9-8935-1309a8dab546";
+    status = WithAccount;
+}
+2017-11-01 10:53:11 -[VIMApiRequestExecutor executeRequest:success:failure:] <427651> [Debug] https://int-uat.buttonhub.com/token-manager/idm/v02/authenticate?response_type=token+refresh_token
+2017-11-01 10:53:11 -[VIMApiRequestExecutor executeRequest:success:failure:] <427651> [Debug] <VIMPasswordAuthenticationRequest: 0x17025f0b0 method=POST path=https://int-uat.buttonhub.com/token-manager/idm/v02/authenticate Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:{"state":"25a65abb-b780-40d9-8935-1309a8dab546","password":"asd123asD"}
+2017-11-01 10:53:11 -[VIMNetworkServiceImpl performAuthChallenge:credential:] <427651> [Warn] The authentication challenge is cancelled! authenticationMethod != NSURLAuthenticationMethodServerTrust (certificate validation).
+2017-11-01 10:53:14 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <427604> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 151;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 07:53:14 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "token-manager/10.10.3.176:8088";
+    "X-Unique-ID" = "5DBBBE94:D448_0A0A028C:01BB_59F97D67_0001:50B5";
+} 
+Body: {
+    "access_token" = "ca7d7c0f-90b6-4210-b4fe-ff4908989848";
+    "expires_in" = 18000;
+    "refresh_token" = "fbdbcd9c-2403-468e-90c5-cc7a2e979995";
+    "token_type" = Bearer;
+}
+2017-11-01 10:53:14 -[VIMIdmAuthorizationDataCache invalidate] <427604> [Debug] Cleaned auth data from keychain: (null) persistent:0
+2017-11-01 10:53:14 -[VIMIdmAuthorizationDataCache updateWithValue:persistent:] <427604> [Debug] Update auth data with: <VIMIdmAuthorizationData: 0x170253e90 accessToken:ca7d7c0f-90b6-4210-b4fe-ff4908989848 refreshToken:fbdbcd9c-2403-468e-90c5-cc7a2e979995 creationDate:2017-11-01 07:53:14 +0000 expiresIn:18000.000000> persistent:0
+2017-11-01 10:53:14 -[VIMApiRequestExecutor executeRequest:success:failure:] <427642> [Debug] https://int-uat.buttonhub.com/account-manager/idm/v02/userinfo
+2017-11-01 10:53:14 -[VIMApiRequestExecutor executeRequest:success:failure:] <427642> [Debug] <VIMOnboardingGetUserInfoRequest: 0x170234d40 method=GET path=https://int-uat.buttonhub.com/account-manager/idm/v02/userinfo Headers: {
+    "Accept-Language" = en;
+    Authorization = "Bearer ca7d7c0f-90b6-4210-b4fe-ff4908989848";
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 10:53:17 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <427604> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    Connection = close;
+    "Content-Length" = 192;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 07:53:17 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "account-manager/10.10.3.176:8089";
+    "X-Unique-ID" = "5DBBBE94:D448_0A0A028C:01BB_59F97D6A_0002:50B5";
+} 
+Body: {
+    email = "";
+    localeInfo =     {
+        zoneInfo = UTC;
+    };
+    msisdn = 380689000999;
+    msisdnCountry = UA;
+    name =     {
+        familyName = Gshdhd;
+        givenName = Hdhdhd;
+    };
+    profileId = "745c745c-6427-4ffc-ad6b-322516307db5";
+}
+2017-11-01 10:53:17 -[VIMUserAccountServiceImpl setUserMsisdn:userInfo:] <427604> [Debug] User msisdn and userInfo updated: 380689000999
+2017-11-01 10:53:17 -[VIMApiRequestExecutor executeRequest:success:failure:] <427629> [Debug] https://int-uat.buttonhub.com/relying-party/idm/v02/associate/status
+2017-11-01 10:53:17 -[VIMApiRequestExecutor executeRequest:success:failure:] <427629> [Debug] <VIMOpcoAssociationInfoRequest: 0x17022a4a0 method=GET path=https://int-uat.buttonhub.com/relying-party/idm/v02/associate/status Headers: {
+    "Accept-Language" = en;
+    Authorization = "Bearer ca7d7c0f-90b6-4210-b4fe-ff4908989848";
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 10:53:17 -[VIMNetworkServiceImpl performAuthChallenge:credential:] <427652> [Warn] The authentication challenge is cancelled! authenticationMethod != NSURLAuthenticationMethodServerTrust (certificate validation).
+2017-11-01 10:53:24 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <427604> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 69;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 07:53:24 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "relying_party_backend/10.10.3.176:8090";
+    "X-Unique-ID" = "5DBBBE94:D44A_0A0A028C:01BB_59F97D6D_0001:50C0";
+} 
+Body: {
+    identityProviderId = "kyivstar-ua";
+    status = AssociationIsPossible;
+}
+2017-11-01 10:53:24 -[VIMUserAccountServiceImpl setOpcoAssociationInfo:] <427604> [Debug] User opcoAssociationInfo updated
+2017-11-01 10:53:24 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <427604> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 07:53:14 +0000 expiresIn: 18000.000000
+2017-11-01 10:53:27 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <427604> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 07:53:14 +0000 expiresIn: 18000.000000
+2017-11-01 10:53:27 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <427604> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 07:53:14 +0000 expiresIn: 18000.000000
+2017-11-01 10:53:28 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <427604> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 07:53:14 +0000 expiresIn: 18000.000000
+2017-11-01 10:53:28 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <427604> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 07:53:14 +0000 expiresIn: 18000.000000
+2017-11-01 10:55:20 -[VIMApiRequestExecutor executeRequest:success:failure:] <428929> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-01 10:55:20 -[VIMApiRequestExecutor executeRequest:success:failure:] <428929> [Debug] <VIMOnboardingVersionsRequest: 0x17423a7c0 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 10:55:21 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <427604> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 57;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 07:55:21 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.193:8098";
+} 
+Body: {
+    android =     (
+        "1.2",
+        "2.0.0"
+    );
+    ios =     (
+        "1.2",
+        "2.0.0",
+        "2.0.1"
+    );
+}
+2017-11-01 10:57:49 -[VIMApiRequestExecutor executeRequest:success:failure:] <429994> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-01 10:57:49 -[VIMApiRequestExecutor executeRequest:success:failure:] <429994> [Debug] <VIMOnboardingVersionsRequest: 0x1742209a0 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 10:57:49 -[VIMNetworkServiceImpl performAuthChallenge:credential:] <430006> [Warn] The authentication challenge is cancelled! authenticationMethod != NSURLAuthenticationMethodServerTrust (certificate validation).
+2017-11-01 10:57:49 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <427604> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 57;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 07:57:49 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.241:8098";
+} 
+Body: {
+    android =     (
+        "1.2",
+        "2.0.0"
+    );
+    ios =     (
+        "1.2",
+        "2.0.0",
+        "2.0.1"
+    );
+}
+2017-11-01 10:57:53 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <427604> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 07:53:14 +0000 expiresIn: 18000.000000
+2017-11-01 10:58:45 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <427604> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 07:53:14 +0000 expiresIn: 18000.000000
+2017-11-01 12:01:40 +[VIMLogger enableFileLogging] <436397> [Debug] VIMLogger has been loaded
+2017-11-01 12:01:40 +[VIMLogger enableFileLogging] <436397> [Debug] VIMVersion is 0.4.8
+2017-11-01 12:01:43 -[VIMIdmAuthorizationDataCache value] <436397> [Debug] Loaded auth data from keychain: (null) persistent:0
+2017-11-01 12:01:43 -[VIMUserAccountServiceImpl clear] <436397> [Debug] User data was cleaned
+2017-11-01 12:01:43 -[VIMIdmAuthorizationDataCache invalidate] <436397> [Debug] Cleaned auth data from keychain: (null) persistent:0
+2017-11-01 12:01:43 -[VIMOnboardingFlowCoordinatorImpl startOnboardingFlow] <436397> [Debug] Returning user msisdn found 380689000999
+2017-11-01 12:01:43 -[VIMApiRequestExecutor executeRequest:success:failure:] <436610> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-01 12:01:43 -[VIMApiRequestExecutor executeRequest:success:failure:] <436610> [Debug] <VIMOnboardingVersionsRequest: 0x170236b00 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 12:01:43 -[VIMNetworkServiceImpl performAuthChallenge:credential:] <436610> [Warn] The authentication challenge is cancelled! authenticationMethod != NSURLAuthenticationMethodServerTrust (certificate validation).
+2017-11-01 12:01:43 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <436397> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 57;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 09:01:43 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.176:8098";
+} 
+Body: {
+    android =     (
+        "1.2",
+        "2.0.0"
+    );
+    ios =     (
+        "1.2",
+        "2.0.0",
+        "2.0.1"
+    );
+}
+2017-11-01 12:03:20 -[VIMApiRequestExecutor executeRequest:success:failure:] <436581> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/services?msisdn=380689000999
+2017-11-01 12:03:20 -[VIMApiRequestExecutor executeRequest:success:failure:] <436581> [Debug] <VIMOnboardingDiscoveryRequest: 0x17023cf80 method=GET path=wayf/idm/v02/services Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 12:03:20 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <436397> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 3296;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 09:03:20 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.241:8098";
+    "X-Unique-ID" = "5DBBBE94:D51C_0A0A028C:01BB_59F98DD8_0081:569A";
+} 
+Body: {
+    country = UA;
+    endpoints =     {
+        associate =         {
+            url = "https://int-uat.buttonhub.com/relying-party";
+        };
+        associationStatus =         {
+            url = "https://int-uat.buttonhub.com/relying-party";
+        };
+        autoTopUpInfo =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        availableLines =         {
+            url = "https://int-uat.buttonhub.com/line-switcher";
+        };
+        availablePaymentMeans =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        categorizedOffers =         {
+            url = "https://int-uat.buttonhub.com/subscription";
+        };
+        createAutoTopUpInfo =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        createTopUp =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        createUserProfile =         {
+            url = "https://int-uat.buttonhub.com/account-manager";
+        };
+        deactivateUserProfile =         {
+            url = "https://int-uat.buttonhub.com/account-manager";
+        };
+        deleteAutoTopUpInfo =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        deletePaymentMeans =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        deviceVerificationChallenge =         {
+            url = "https://int-uat.buttonhub.com/sms-verification";
+        };
+        deviceVerificationProof =         {
+            url = "https://int-uat.buttonhub.com/sms-verification";
+        };
+        emailVerificationProof =         {
+            url = "https://int-uat.buttonhub.com/email-verification";
+        };
+        getConsents =         {
+            url = "https://int-uat.buttonhub.com/consents";
+        };
+        getConsentsForSettings =         {
+            url = "https://int-uat.buttonhub.com/consents";
+        };
+        getFAQ =         {
+            url = "https://int-uat.buttonhub.com/faq";
+        };
+        initiatePaymentMeansAddition =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        listSubscribedChannels =         {
+            url = "https://int-uat.buttonhub.com/user-interaction";
+        };
+        logout =         {
+            url = "https://int-uat.buttonhub.com/token-manager";
+        };
+        markAsDefaultPaymentMeans =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        mgm2Operations =         {
+            url = "https://int-uat.buttonhub.com/mgm2";
+        };
+        mgmOperations =         {
+            url = "https://int-uat.buttonhub.com/mgm";
+        };
+        migration =         {
+            url = "https://int-uat.buttonhub.com/migration";
+        };
+        onboardingState =         {
+            url = "https://int-uat.buttonhub.com/wayf";
+        };
+        passwordAuthenticate =         {
+            url = "https://int-uat.buttonhub.com/token-manager";
+        };
+        passwordResetInitialize =         {
+            url = "https://int-uat.buttonhub.com/token-manager";
+        };
+        passwordSet =         {
+            url = "https://int-uat.buttonhub.com/token-manager";
+        };
+        passwordUpdate =         {
+            url = "https://int-uat.buttonhub.com/token-manager";
+        };
+        recommendedOffers =         {
+            url = "https://int-uat.buttonhub.com/subscription";
+        };
+        refreshToken =         {
+            url = "https://int-uat.buttonhub.com/token-manager";
+        };
+        removeAssociation =         {
+            url = "https://int-uat.buttonhub.com/relying-party";
+        };
+        retrieveSinglePaymentMeans =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        retrieveUserInfo =         {
+            url = "https://int-uat.buttonhub.com/account-manager";
+        };
+        revokeToken =         {
+            url = "https://int-uat.buttonhub.com/token-manager";
+        };
+        services =         {
+            url = "https://int-uat.buttonhub.com/subscription";
+        };
+        singleTopUpInfo =         {
+            url = "https://int-uat.buttonhub.com/payment";
+        };
+        subscribeChannel =         {
+            url = "https://int-uat.buttonhub.com/user-interaction";
+        };
+        subscriptionInfo =         {
+            url = "https://int-uat.buttonhub.com/subscription";
+        };
+        topUpHistory =         {
+            url = "https://int-uat.buttonhub.com/subscription";
+        };
+        unSubscribeChannel =         {
+            url = "https://int-uat.buttonhub.com/user-interaction";
+        };
+        updateConsents =         {
+            url = "https://int-uat.buttonhub.com/consents";
+        };
+        updateConsentsForSettings =         {
+            url = "https://int-uat.buttonhub.com/consents";
+        };
+        updateFAQ =         {
+            url = "https://int-uat.buttonhub.com/faq";
+        };
+        updateUserInfo =         {
+            url = "https://int-uat.buttonhub.com/account-manager";
+        };
+    };
+}
+2017-11-01 12:03:20 -[VIMApiRequestExecutor executeRequest:success:failure:] <436581> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/onboarding?msisdn=380689000999
+2017-11-01 12:03:20 -[VIMApiRequestExecutor executeRequest:success:failure:] <436581> [Debug] <VIMOnboardingStateInfoRequest: 0x17044bd30 method=GET path=https://int-uat.buttonhub.com/wayf/idm/v02/onboarding Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 12:03:23 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <436397> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 71;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 09:03:23 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.33:8098";
+    "X-Unique-ID" = "5DBBBE94:D51C_0A0A028C:01BB_59F98DD8_0082:569A";
+} 
+Body: {
+    state = "3a56bba7-aca0-4e3b-8295-5d8ed60c4577";
+    status = WithAccount;
+}
+2017-11-01 12:03:37 -[VIMApiRequestExecutor executeRequest:success:failure:] <436556> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/onboarding?msisdn=380689000999
+2017-11-01 12:03:37 -[VIMApiRequestExecutor executeRequest:success:failure:] <436556> [Debug] <VIMOnboardingStateInfoRequest: 0x1706504a0 method=GET path=https://int-uat.buttonhub.com/wayf/idm/v02/onboarding Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 12:03:39 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <436397> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 71;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 09:03:39 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.4.54:8098";
+    "X-Unique-ID" = "5DBBBE94:D51C_0A0A028C:01BB_59F98DDB_0092:569A";
+} 
+Body: {
+    state = "044f2b55-80fb-43af-ac57-cfc8516f5384";
+    status = WithAccount;
+}
+2017-11-01 12:03:40 -[VIMApiRequestExecutor executeRequest:success:failure:] <437115> [Debug] https://int-uat.buttonhub.com/token-manager/idm/v02/authenticate?response_type=token+refresh_token
+2017-11-01 12:03:40 -[VIMApiRequestExecutor executeRequest:success:failure:] <437115> [Debug] <VIMPasswordAuthenticationRequest: 0x17064bf70 method=POST path=https://int-uat.buttonhub.com/token-manager/idm/v02/authenticate Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:{"state":"044f2b55-80fb-43af-ac57-cfc8516f5384","password":"asd123asD"}
+2017-11-01 12:03:42 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <436397> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 151;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 09:03:42 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "token-manager/10.10.3.33:8088";
+    "X-Unique-ID" = "5DBBBE94:D51C_0A0A028C:01BB_59F98DEB_00CA:569A";
+} 
+Body: {
+    "access_token" = "07db55dc-37b9-46ce-9523-80e617bfb3e6";
+    "expires_in" = 18000;
+    "refresh_token" = "22dd00bc-12e5-4136-b815-ce0d660e978e";
+    "token_type" = Bearer;
+}
+2017-11-01 12:03:42 -[VIMIdmAuthorizationDataCache invalidate] <436397> [Debug] Cleaned auth data from keychain: (null) persistent:0
+2017-11-01 12:03:42 -[VIMIdmAuthorizationDataCache updateWithValue:persistent:] <436397> [Debug] Update auth data with: <VIMIdmAuthorizationData: 0x17064cae0 accessToken:07db55dc-37b9-46ce-9523-80e617bfb3e6 refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-01 09:03:42 +0000 expiresIn:18000.000000> persistent:1
+2017-11-01 12:03:42 -[VIMApiRequestExecutor executeRequest:success:failure:] <437114> [Debug] https://int-uat.buttonhub.com/account-manager/idm/v02/userinfo
+2017-11-01 12:03:42 -[VIMApiRequestExecutor executeRequest:success:failure:] <437114> [Debug] <VIMOnboardingGetUserInfoRequest: 0x17403c420 method=GET path=https://int-uat.buttonhub.com/account-manager/idm/v02/userinfo Headers: {
+    "Accept-Language" = en;
+    Authorization = "Bearer 07db55dc-37b9-46ce-9523-80e617bfb3e6";
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 12:03:42 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <436397> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 192;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 09:03:42 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "account-manager/10.10.4.15:8089";
+    "X-Unique-ID" = "5DBBBE94:D51C_0A0A028C:01BB_59F98DEE_00DC:569A";
+} 
+Body: {
+    email = "";
+    localeInfo =     {
+        zoneInfo = UTC;
+    };
+    msisdn = 380689000999;
+    msisdnCountry = UA;
+    name =     {
+        familyName = Gshdhd;
+        givenName = Hdhdhd;
+    };
+    profileId = "745c745c-6427-4ffc-ad6b-322516307db5";
+}
+2017-11-01 12:03:42 -[VIMUserAccountServiceImpl setUserMsisdn:userInfo:] <436397> [Debug] User msisdn and userInfo updated: 380689000999
+2017-11-01 12:03:42 -[VIMApiRequestExecutor executeRequest:success:failure:] <437091> [Debug] https://int-uat.buttonhub.com/relying-party/idm/v02/associate/status
+2017-11-01 12:03:42 -[VIMApiRequestExecutor executeRequest:success:failure:] <437091> [Debug] <VIMOpcoAssociationInfoRequest: 0x174225980 method=GET path=https://int-uat.buttonhub.com/relying-party/idm/v02/associate/status Headers: {
+    "Accept-Language" = en;
+    Authorization = "Bearer 07db55dc-37b9-46ce-9523-80e617bfb3e6";
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 12:03:47 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <436397> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 69;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 09:03:47 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "relying_party_backend/10.10.3.193:8090";
+    "X-Unique-ID" = "5DBBBE94:D51C_0A0A028C:01BB_59F98DEE_00DD:569A";
+} 
+Body: {
+    identityProviderId = "kyivstar-ua";
+    status = AssociationIsPossible;
+}
+2017-11-01 12:03:47 -[VIMUserAccountServiceImpl setOpcoAssociationInfo:] <436397> [Debug] User opcoAssociationInfo updated
+2017-11-01 12:03:47 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <436397> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 09:03:42 +0000 expiresIn: 18000.000000
+2017-11-01 12:03:50 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <436397> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 09:03:42 +0000 expiresIn: 18000.000000
+2017-11-01 12:03:50 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <436397> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 09:03:42 +0000 expiresIn: 18000.000000
+2017-11-01 12:03:51 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <436397> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 09:03:42 +0000 expiresIn: 18000.000000
+2017-11-01 12:03:51 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <436397> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 09:03:42 +0000 expiresIn: 18000.000000
+2017-11-01 12:04:06 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <436397> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 09:03:42 +0000 expiresIn: 18000.000000
+2017-11-01 12:28:26 +[VIMLogger enableFileLogging] <441930> [Debug] VIMLogger has been loaded
+2017-11-01 12:28:26 +[VIMLogger enableFileLogging] <441930> [Debug] VIMVersion is 0.4.8
+2017-11-01 12:28:27 -[VIMApiRequestExecutor executeRequest:success:failure:] <441943> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-01 12:28:27 -[VIMApiRequestExecutor executeRequest:success:failure:] <441943> [Debug] <VIMOnboardingVersionsRequest: 0x174228280 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 12:28:27 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:] <441930> [Debug] Start onboarding startup flow
+2017-11-01 12:28:27 -[VIMIdmServiceImpl refreshAccessTokenWithCompletion:] <441930> [Debug] Asked to refresh access token. refresh token: 22dd00bc-12e5-4136-b815-ce0d660e978e
+2017-11-01 12:28:27 -[VIMApiRequestExecutor executeRequest:success:failure:] <441946> [Debug] https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh
+2017-11-01 12:28:27 -[VIMApiRequestExecutor executeRequest:success:failure:] <441946> [Debug] <VIMIdmRefreshTokenRequest: 0x17425b2d0 method=POST path=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh Headers: (null)
+ Body:{"refresh_token":"22dd00bc-12e5-4136-b815-ce0d660e978e","grant_type":"refresh_token"}
+2017-11-01 12:28:27 -[VIMNetworkServiceImpl performAuthChallenge:credential:] <441946> [Warn] The authentication challenge is cancelled! authenticationMethod != NSURLAuthenticationMethodServerTrust (certificate validation).
+2017-11-01 12:28:28 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <441930> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 57;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 09:28:27 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.176:8098";
+} 
+Body: {
+    android =     (
+        "1.2",
+        "2.0.0"
+    );
+    ios =     (
+        "1.2",
+        "2.0.0",
+        "2.0.1"
+    );
+}
+2017-11-01 12:28:28 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <441930> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 151;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 09:28:27 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "token-manager/10.10.3.176:8088";
+    "X-Unique-ID" = "5DBBBE94:D540_0A0A028C:01BB_59F993BB_001B:57D1";
+} 
+Body: {
+    "access_token" = "f3d404a5-fa21-4c10-ae78-7601add7be04";
+    "expires_in" = 18000;
+    "refresh_token" = "22dd00bc-12e5-4136-b815-ce0d660e978e";
+    "token_type" = Bearer;
+}
+2017-11-01 12:28:28 -[VIMIdmAuthorizationDataCache invalidate] <441930> [Debug] Cleaned auth data from keychain: <VIMIdmAuthorizationData: 0x174055c30 accessToken:07db55dc-37b9-46ce-9523-80e617bfb3e6 refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-01 09:03:42 +0000 expiresIn:18000.000000> persistent:1
+2017-11-01 12:28:28 -[VIMIdmAuthorizationDataCache updateWithValue:persistent:] <441930> [Debug] Update auth data with: <VIMIdmAuthorizationData: 0x170459950 accessToken:f3d404a5-fa21-4c10-ae78-7601add7be04 refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-01 09:28:28 +0000 expiresIn:18000.000000> persistent:1
+2017-11-01 12:28:28 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:]_block_invoke <441930> [Debug] Onboarding startup flow is finished with result: 2
+2017-11-01 12:28:28 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <441930> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 09:28:28 +0000 expiresIn: 18000.000000
+2017-11-01 12:28:28 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <441930> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 09:28:28 +0000 expiresIn: 18000.000000
+2017-11-01 12:28:30 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <441930> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 09:28:28 +0000 expiresIn: 18000.000000
+2017-11-01 12:28:30 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <441930> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 09:28:28 +0000 expiresIn: 18000.000000
+2017-11-01 12:36:14 -[VIMApiRequestExecutor executeRequest:success:failure:] <442981> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-01 12:36:14 -[VIMApiRequestExecutor executeRequest:success:failure:] <442981> [Debug] <VIMOnboardingVersionsRequest: 0x174429020 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 12:36:14 -[VIMNetworkServiceImpl performAuthChallenge:credential:] <442401> [Warn] The authentication challenge is cancelled! authenticationMethod != NSURLAuthenticationMethodServerTrust (certificate validation).
+2017-11-01 12:36:14 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <441930> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 57;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 09:36:14 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.4.15:8098";
+} 
+Body: {
+    android =     (
+        "1.2",
+        "2.0.0"
+    );
+    ios =     (
+        "1.2",
+        "2.0.0",
+        "2.0.1"
+    );
+}
+2017-11-01 16:15:45 +[VIMLogger enableFileLogging] <461467> [Debug] VIMLogger has been loaded
+2017-11-01 16:15:45 +[VIMLogger enableFileLogging] <461467> [Debug] VIMVersion is 0.4.8
+2017-11-01 16:15:48 -[VIMApiRequestExecutor executeRequest:success:failure:] <461853> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-01 16:15:48 -[VIMApiRequestExecutor executeRequest:success:failure:] <461853> [Debug] <VIMOnboardingVersionsRequest: 0x174032420 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 16:15:49 -[VIMNetworkServiceImpl performAuthChallenge:credential:] <461853> [Warn] The authentication challenge is cancelled! authenticationMethod != NSURLAuthenticationMethodServerTrust (certificate validation).
+2017-11-01 16:15:49 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:] <461467> [Debug] Start onboarding startup flow
+2017-11-01 16:15:49 -[VIMIdmServiceImpl refreshAccessTokenWithCompletion:] <461467> [Debug] Asked to refresh access token. refresh token: 22dd00bc-12e5-4136-b815-ce0d660e978e
+2017-11-01 16:15:49 -[VIMApiRequestExecutor executeRequest:success:failure:] <461710> [Debug] https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh
+2017-11-01 16:15:49 -[VIMApiRequestExecutor executeRequest:success:failure:] <461710> [Debug] <VIMIdmRefreshTokenRequest: 0x1704563e0 method=POST path=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh Headers: (null)
+ Body:{"refresh_token":"22dd00bc-12e5-4136-b815-ce0d660e978e","grant_type":"refresh_token"}
+2017-11-01 16:15:49 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <461467> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 57;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 13:15:49 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.4.15:8098";
+} 
+Body: {
+    android =     (
+        "1.2",
+        "2.0.0"
+    );
+    ios =     (
+        "1.2",
+        "2.0.0",
+        "2.0.1"
+    );
+}
+2017-11-01 16:15:50 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <461467> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 151;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 13:15:49 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "token-manager/10.10.4.170:8088";
+    "X-Unique-ID" = "5DBBBE94:D6CA_0A0A028C:01BB_59F9C905_00F8:7798";
+} 
+Body: {
+    "access_token" = "db6bbe47-01ed-4288-a424-77d829ebd4fd";
+    "expires_in" = 18000;
+    "refresh_token" = "22dd00bc-12e5-4136-b815-ce0d660e978e";
+    "token_type" = Bearer;
+}
+2017-11-01 16:15:50 -[VIMIdmAuthorizationDataCache invalidate] <461467> [Debug] Cleaned auth data from keychain: <VIMIdmAuthorizationData: 0x170243150 accessToken:f3d404a5-fa21-4c10-ae78-7601add7be04 refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-01 09:28:28 +0000 expiresIn:18000.000000> persistent:1
+2017-11-01 16:15:50 -[VIMIdmAuthorizationDataCache updateWithValue:persistent:] <461467> [Debug] Update auth data with: <VIMIdmAuthorizationData: 0x17005aa30 accessToken:db6bbe47-01ed-4288-a424-77d829ebd4fd refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-01 13:15:50 +0000 expiresIn:18000.000000> persistent:1
+2017-11-01 16:15:50 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:]_block_invoke <461467> [Debug] Onboarding startup flow is finished with result: 2
+2017-11-01 16:15:51 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <461467> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 13:15:50 +0000 expiresIn: 18000.000000
+2017-11-01 16:15:51 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <461467> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 13:15:50 +0000 expiresIn: 18000.000000
+2017-11-01 16:15:52 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <461467> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 13:15:50 +0000 expiresIn: 18000.000000
+2017-11-01 16:15:52 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <461467> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 13:15:50 +0000 expiresIn: 18000.000000
+2017-11-01 16:40:20 +[VIMLogger enableFileLogging] <469108> [Debug] VIMLogger has been loaded
+2017-11-01 16:40:20 +[VIMLogger enableFileLogging] <469108> [Debug] VIMVersion is 0.4.8
+2017-11-01 16:40:21 -[VIMApiRequestExecutor executeRequest:success:failure:] <469134> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-01 16:40:21 -[VIMApiRequestExecutor executeRequest:success:failure:] <469134> [Debug] <VIMOnboardingVersionsRequest: 0x174221220 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 16:40:21 -[VIMNetworkServiceImpl performAuthChallenge:credential:] <469117> [Warn] The authentication challenge is cancelled! authenticationMethod != NSURLAuthenticationMethodServerTrust (certificate validation).
+2017-11-01 16:40:21 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:] <469108> [Debug] Start onboarding startup flow
+2017-11-01 16:40:21 -[VIMIdmServiceImpl refreshAccessTokenWithCompletion:] <469108> [Debug] Asked to refresh access token. refresh token: 22dd00bc-12e5-4136-b815-ce0d660e978e
+2017-11-01 16:40:21 -[VIMApiRequestExecutor executeRequest:success:failure:] <469134> [Debug] https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh
+2017-11-01 16:40:21 -[VIMApiRequestExecutor executeRequest:success:failure:] <469134> [Debug] <VIMIdmRefreshTokenRequest: 0x17445fe90 method=POST path=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh Headers: (null)
+ Body:{"refresh_token":"22dd00bc-12e5-4136-b815-ce0d660e978e","grant_type":"refresh_token"}
+2017-11-01 16:40:22 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <469108> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 57;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 13:40:21 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.176:8098";
+} 
+Body: {
+    android =     (
+        "1.2",
+        "2.0.0"
+    );
+    ios =     (
+        "1.2",
+        "2.0.0",
+        "2.0.1"
+    );
+}
+2017-11-01 16:40:22 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <469108> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 151;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 13:40:22 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "token-manager/10.10.3.193:8088";
+    "X-Unique-ID" = "5DBBBE94:D729_0A0A028C:01BB_59F9CEC6_0027:79BE";
+} 
+Body: {
+    "access_token" = "7f65a681-7698-4015-a32e-b15ef0cb3174";
+    "expires_in" = 18000;
+    "refresh_token" = "22dd00bc-12e5-4136-b815-ce0d660e978e";
+    "token_type" = Bearer;
+}
+2017-11-01 16:40:22 -[VIMIdmAuthorizationDataCache invalidate] <469108> [Debug] Cleaned auth data from keychain: <VIMIdmAuthorizationData: 0x17424a440 accessToken:db6bbe47-01ed-4288-a424-77d829ebd4fd refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-01 13:15:50 +0000 expiresIn:18000.000000> persistent:1
+2017-11-01 16:40:22 -[VIMIdmAuthorizationDataCache updateWithValue:persistent:] <469108> [Debug] Update auth data with: <VIMIdmAuthorizationData: 0x174246e70 accessToken:7f65a681-7698-4015-a32e-b15ef0cb3174 refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-01 13:40:22 +0000 expiresIn:18000.000000> persistent:1
+2017-11-01 16:40:22 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:]_block_invoke <469108> [Debug] Onboarding startup flow is finished with result: 2
+2017-11-01 16:40:22 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <469108> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 13:40:22 +0000 expiresIn: 18000.000000
+2017-11-01 16:40:22 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <469108> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 13:40:22 +0000 expiresIn: 18000.000000
+2017-11-01 16:40:23 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <469108> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 13:40:22 +0000 expiresIn: 18000.000000
+2017-11-01 16:40:23 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <469108> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 13:40:22 +0000 expiresIn: 18000.000000
+2017-11-01 16:43:32 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <469108> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 13:40:22 +0000 expiresIn: 18000.000000
+2017-11-01 16:45:52 +[VIMLogger enableFileLogging] <471422> [Debug] VIMLogger has been loaded
+2017-11-01 16:45:52 +[VIMLogger enableFileLogging] <471422> [Debug] VIMVersion is 0.4.8
+2017-11-01 16:45:53 -[VIMApiRequestExecutor executeRequest:success:failure:] <471475> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-01 16:45:53 -[VIMApiRequestExecutor executeRequest:success:failure:] <471475> [Debug] <VIMOnboardingVersionsRequest: 0x17022e840 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-01 16:45:53 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:] <471422> [Debug] Start onboarding startup flow
+2017-11-01 16:45:53 -[VIMIdmServiceImpl refreshAccessTokenWithCompletion:] <471422> [Debug] Asked to refresh access token. refresh token: 22dd00bc-12e5-4136-b815-ce0d660e978e
+2017-11-01 16:45:53 -[VIMApiRequestExecutor executeRequest:success:failure:] <471486> [Debug] https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh
+2017-11-01 16:45:53 -[VIMApiRequestExecutor executeRequest:success:failure:] <471486> [Debug] <VIMIdmRefreshTokenRequest: 0x1702521b0 method=POST path=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh Headers: (null)
+ Body:{"refresh_token":"22dd00bc-12e5-4136-b815-ce0d660e978e","grant_type":"refresh_token"}
+2017-11-01 16:45:53 -[VIMNetworkServiceImpl performAuthChallenge:credential:] <471472> [Warn] The authentication challenge is cancelled! authenticationMethod != NSURLAuthenticationMethodServerTrust (certificate validation).
+2017-11-01 16:45:53 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <471422> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 57;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 13:45:53 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.193:8098";
+} 
+Body: {
+    android =     (
+        "1.2",
+        "2.0.0"
+    );
+    ios =     (
+        "1.2",
+        "2.0.0",
+        "2.0.1"
+    );
+}
+2017-11-01 16:45:53 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <471422> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 151;
+    "Content-Type" = "application/json";
+    Date = "Wed, 01 Nov 2017 13:45:53 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "token-manager/10.10.3.241:8088";
+    "X-Unique-ID" = "5DBBBE94:D757_0A0A028C:01BB_59F9D011_0032:7A37";
+} 
+Body: {
+    "access_token" = "34f10eae-197e-463d-9f1a-dcb843a139e1";
+    "expires_in" = 18000;
+    "refresh_token" = "22dd00bc-12e5-4136-b815-ce0d660e978e";
+    "token_type" = Bearer;
+}
+2017-11-01 16:45:53 -[VIMIdmAuthorizationDataCache invalidate] <471422> [Debug] Cleaned auth data from keychain: <VIMIdmAuthorizationData: 0x174055330 accessToken:7f65a681-7698-4015-a32e-b15ef0cb3174 refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-01 13:40:22 +0000 expiresIn:18000.000000> persistent:1
+2017-11-01 16:45:53 -[VIMIdmAuthorizationDataCache updateWithValue:persistent:] <471422> [Debug] Update auth data with: <VIMIdmAuthorizationData: 0x17404bdc0 accessToken:34f10eae-197e-463d-9f1a-dcb843a139e1 refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-01 13:45:53 +0000 expiresIn:18000.000000> persistent:1
+2017-11-01 16:45:53 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:]_block_invoke <471422> [Debug] Onboarding startup flow is finished with result: 2
+2017-11-01 16:45:54 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <471422> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 13:45:53 +0000 expiresIn: 18000.000000
+2017-11-01 16:45:54 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <471422> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 13:45:53 +0000 expiresIn: 18000.000000
+2017-11-01 16:45:54 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <471422> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 13:45:53 +0000 expiresIn: 18000.000000
+2017-11-01 16:45:54 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <471422> [Info] Get valid token operation returned valid token with creationDate: 2017-11-01 13:45:53 +0000 expiresIn: 18000.000000
+2017-11-02 10:14:38 -[VIMApiRequestExecutor executeRequest:success:failure:] <516124> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-02 10:14:38 -[VIMApiRequestExecutor executeRequest:success:failure:] <516124> [Debug] <VIMOnboardingVersionsRequest: 0x174631180 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-02 10:14:39 -[VIMNetworkServiceImpl performAuthChallenge:credential:] <516124> [Warn] The authentication challenge is cancelled! authenticationMethod != NSURLAuthenticationMethodServerTrust (certificate validation).
+2017-11-02 10:14:39 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <471422> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 57;
+    "Content-Type" = "application/json";
+    Date = "Thu, 02 Nov 2017 07:14:39 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.176:8098";
+} 
+Body: {
+    android =     (
+        "1.2",
+        "2.0.0"
+    );
+    ios =     (
+        "1.2",
+        "2.0.0",
+        "2.0.1"
+    );
+}
+2017-11-02 10:17:23 +[VIMLogger enableFileLogging] <517979> [Debug] VIMLogger has been loaded
+2017-11-02 10:17:23 +[VIMLogger enableFileLogging] <517979> [Debug] VIMVersion is 0.4.8
+2017-11-02 10:17:24 -[VIMApiRequestExecutor executeRequest:success:failure:] <518103> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-02 10:17:24 -[VIMApiRequestExecutor executeRequest:success:failure:] <518103> [Debug] <VIMOnboardingVersionsRequest: 0x17403d400 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-02 10:17:24 -[VIMNetworkServiceImpl performAuthChallenge:credential:] <518177> [Warn] The authentication challenge is cancelled! authenticationMethod != NSURLAuthenticationMethodServerTrust (certificate validation).
+2017-11-02 10:17:24 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:] <517979> [Debug] Start onboarding startup flow
+2017-11-02 10:17:24 -[VIMIdmServiceImpl refreshAccessTokenWithCompletion:] <517979> [Debug] Asked to refresh access token. refresh token: 22dd00bc-12e5-4136-b815-ce0d660e978e
+2017-11-02 10:17:24 -[VIMApiRequestExecutor executeRequest:success:failure:] <518103> [Debug] https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh
+2017-11-02 10:17:24 -[VIMApiRequestExecutor executeRequest:success:failure:] <518103> [Debug] <VIMIdmRefreshTokenRequest: 0x170242fa0 method=POST path=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh Headers: (null)
+ Body:{"refresh_token":"22dd00bc-12e5-4136-b815-ce0d660e978e","grant_type":"refresh_token"}
+2017-11-02 10:17:25 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <517979> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 57;
+    "Content-Type" = "application/json";
+    Date = "Thu, 02 Nov 2017 07:17:24 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.193:8098";
+} 
+Body: {
+    android =     (
+        "1.2",
+        "2.0.0"
+    );
+    ios =     (
+        "1.2",
+        "2.0.0",
+        "2.0.1"
+    );
+}
+2017-11-02 10:17:25 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <517979> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 151;
+    "Content-Type" = "application/json";
+    Date = "Thu, 02 Nov 2017 07:17:25 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "token-manager/10.10.4.15:8088";
+    "X-Unique-ID" = "5DBBBE94:DAAA_0A0A028C:01BB_59FAC684_0082:4643";
+} 
+Body: {
+    "access_token" = "6f96c860-9d2f-49ba-8db2-b763cfd54edc";
+    "expires_in" = 18000;
+    "refresh_token" = "22dd00bc-12e5-4136-b815-ce0d660e978e";
+    "token_type" = Bearer;
+}
+2017-11-02 10:17:25 -[VIMIdmAuthorizationDataCache invalidate] <517979> [Debug] Cleaned auth data from keychain: <VIMIdmAuthorizationData: 0x170249d20 accessToken:34f10eae-197e-463d-9f1a-dcb843a139e1 refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-01 13:45:53 +0000 expiresIn:18000.000000> persistent:1
+2017-11-02 10:17:25 -[VIMIdmAuthorizationDataCache updateWithValue:persistent:] <517979> [Debug] Update auth data with: <VIMIdmAuthorizationData: 0x17005e300 accessToken:6f96c860-9d2f-49ba-8db2-b763cfd54edc refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-02 07:17:25 +0000 expiresIn:18000.000000> persistent:1
+2017-11-02 10:17:25 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:]_block_invoke <517979> [Debug] Onboarding startup flow is finished with result: 2
+2017-11-02 10:17:25 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <517979> [Info] Get valid token operation returned valid token with creationDate: 2017-11-02 07:17:25 +0000 expiresIn: 18000.000000
+2017-11-02 10:17:25 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <517979> [Info] Get valid token operation returned valid token with creationDate: 2017-11-02 07:17:25 +0000 expiresIn: 18000.000000
+2017-11-02 10:17:27 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <517979> [Info] Get valid token operation returned valid token with creationDate: 2017-11-02 07:17:25 +0000 expiresIn: 18000.000000
+2017-11-02 10:17:27 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <517979> [Info] Get valid token operation returned valid token with creationDate: 2017-11-02 07:17:25 +0000 expiresIn: 18000.000000
+2017-11-02 10:46:06 +[VIMLogger enableFileLogging] <523461> [Debug] VIMLogger has been loaded
+2017-11-02 10:46:06 +[VIMLogger enableFileLogging] <523461> [Debug] VIMVersion is 0.4.8
+2017-11-02 10:46:08 -[VIMApiRequestExecutor executeRequest:success:failure:] <523626> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-02 10:46:08 -[VIMApiRequestExecutor executeRequest:success:failure:] <523626> [Debug] <VIMOnboardingVersionsRequest: 0x174036340 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-02 10:46:08 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:] <523461> [Debug] Start onboarding startup flow
+2017-11-02 10:46:08 -[VIMIdmServiceImpl refreshAccessTokenWithCompletion:] <523461> [Debug] Asked to refresh access token. refresh token: 22dd00bc-12e5-4136-b815-ce0d660e978e
+2017-11-02 10:46:09 -[VIMApiRequestExecutor executeRequest:success:failure:] <523695> [Debug] https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh
+2017-11-02 10:46:09 -[VIMApiRequestExecutor executeRequest:success:failure:] <523695> [Debug] <VIMIdmRefreshTokenRequest: 0x17444f480 method=POST path=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh Headers: (null)
+ Body:{"refresh_token":"22dd00bc-12e5-4136-b815-ce0d660e978e","grant_type":"refresh_token"}
+2017-11-02 10:46:09 -[VIMNetworkServiceImpl performAuthChallenge:credential:] <523625> [Warn] The authentication challenge is cancelled! authenticationMethod != NSURLAuthenticationMethodServerTrust (certificate validation).
+2017-11-02 10:46:09 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <523461> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 57;
+    "Content-Type" = "application/json";
+    Date = "Thu, 02 Nov 2017 07:46:09 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.176:8098";
+} 
+Body: {
+    android =     (
+        "1.2",
+        "2.0.0"
+    );
+    ios =     (
+        "1.2",
+        "2.0.0",
+        "2.0.1"
+    );
+}
+2017-11-02 10:46:09 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <523461> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 151;
+    "Content-Type" = "application/json";
+    Date = "Thu, 02 Nov 2017 07:46:09 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "token-manager/10.10.3.176:8088";
+    "X-Unique-ID" = "5DBBBE94:DB89_0A0A028C:01BB_59FACD41_0052:487B";
+} 
+Body: {
+    "access_token" = "7e566a1e-4268-4f2f-9ba1-a4ee1f8769bf";
+    "expires_in" = 18000;
+    "refresh_token" = "22dd00bc-12e5-4136-b815-ce0d660e978e";
+    "token_type" = Bearer;
+}
+2017-11-02 10:46:09 -[VIMIdmAuthorizationDataCache invalidate] <523461> [Debug] Cleaned auth data from keychain: <VIMIdmAuthorizationData: 0x170255300 accessToken:6f96c860-9d2f-49ba-8db2-b763cfd54edc refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-02 07:17:25 +0000 expiresIn:18000.000000> persistent:1
+2017-11-02 10:46:09 -[VIMIdmAuthorizationDataCache updateWithValue:persistent:] <523461> [Debug] Update auth data with: <VIMIdmAuthorizationData: 0x170645610 accessToken:7e566a1e-4268-4f2f-9ba1-a4ee1f8769bf refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-02 07:46:09 +0000 expiresIn:18000.000000> persistent:1
+2017-11-02 10:46:09 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:]_block_invoke <523461> [Debug] Onboarding startup flow is finished with result: 2
+2017-11-02 10:46:10 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <523461> [Info] Get valid token operation returned valid token with creationDate: 2017-11-02 07:46:09 +0000 expiresIn: 18000.000000
+2017-11-02 10:46:10 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <523461> [Info] Get valid token operation returned valid token with creationDate: 2017-11-02 07:46:09 +0000 expiresIn: 18000.000000
+2017-11-02 10:46:11 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <523461> [Info] Get valid token operation returned valid token with creationDate: 2017-11-02 07:46:09 +0000 expiresIn: 18000.000000
+2017-11-02 10:46:11 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <523461> [Info] Get valid token operation returned valid token with creationDate: 2017-11-02 07:46:09 +0000 expiresIn: 18000.000000
+2017-11-02 12:44:37 +[VIMLogger enableFileLogging] <543159> [Debug] VIMLogger has been loaded
+2017-11-02 12:44:37 +[VIMLogger enableFileLogging] <543159> [Debug] VIMVersion is 0.4.8
+2017-11-02 12:44:38 -[VIMApiRequestExecutor executeRequest:success:failure:] <543349> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-02 12:44:38 -[VIMApiRequestExecutor executeRequest:success:failure:] <543349> [Debug] <VIMOnboardingVersionsRequest: 0x174223bc0 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-02 12:44:38 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:] <543159> [Debug] Start onboarding startup flow
+2017-11-02 12:44:38 -[VIMIdmServiceImpl refreshAccessTokenWithCompletion:] <543159> [Debug] Asked to refresh access token. refresh token: 22dd00bc-12e5-4136-b815-ce0d660e978e
+2017-11-02 12:44:38 -[VIMApiRequestExecutor executeRequest:success:failure:] <543269> [Debug] https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh
+2017-11-02 12:44:38 -[VIMApiRequestExecutor executeRequest:success:failure:] <543269> [Debug] <VIMIdmRefreshTokenRequest: 0x170242700 method=POST path=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh Headers: (null)
+ Body:{"refresh_token":"22dd00bc-12e5-4136-b815-ce0d660e978e","grant_type":"refresh_token"}
+2017-11-02 12:44:38 -[VIMNetworkServiceImpl performAuthChallenge:credential:] <543270> [Warn] The authentication challenge is cancelled! authenticationMethod != NSURLAuthenticationMethodServerTrust (certificate validation).
+2017-11-02 12:44:38 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <543159> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 57;
+    "Content-Type" = "application/json";
+    Date = "Thu, 02 Nov 2017 09:44:38 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.176:8098";
+} 
+Body: {
+    android =     (
+        "1.2",
+        "2.0.0"
+    );
+    ios =     (
+        "1.2",
+        "2.0.0",
+        "2.0.1"
+    );
+}
+2017-11-02 12:44:38 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <543159> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 151;
+    "Content-Type" = "application/json";
+    Date = "Thu, 02 Nov 2017 09:44:38 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "token-manager/10.10.3.176:8088";
+    "X-Unique-ID" = "5DBBBE94:DD88_0A0A028C:01BB_59FAE906_0027:5168";
+} 
+Body: {
+    "access_token" = "1d574a4c-33c5-4760-a619-9ea403c84c4d";
+    "expires_in" = 18000;
+    "refresh_token" = "22dd00bc-12e5-4136-b815-ce0d660e978e";
+    "token_type" = Bearer;
+}
+2017-11-02 12:44:38 -[VIMIdmAuthorizationDataCache invalidate] <543159> [Debug] Cleaned auth data from keychain: <VIMIdmAuthorizationData: 0x170248ac0 accessToken:7e566a1e-4268-4f2f-9ba1-a4ee1f8769bf refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-02 07:46:09 +0000 expiresIn:18000.000000> persistent:1
+2017-11-02 12:44:38 -[VIMIdmAuthorizationDataCache updateWithValue:persistent:] <543159> [Debug] Update auth data with: <VIMIdmAuthorizationData: 0x170244b30 accessToken:1d574a4c-33c5-4760-a619-9ea403c84c4d refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-02 09:44:38 +0000 expiresIn:18000.000000> persistent:1
+2017-11-02 12:44:39 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:]_block_invoke <543159> [Debug] Onboarding startup flow is finished with result: 2
+2017-11-02 12:44:39 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <543159> [Info] Get valid token operation returned valid token with creationDate: 2017-11-02 09:44:38 +0000 expiresIn: 18000.000000
+2017-11-02 12:44:39 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <543159> [Info] Get valid token operation returned valid token with creationDate: 2017-11-02 09:44:38 +0000 expiresIn: 18000.000000
+2017-11-02 12:44:40 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <543159> [Info] Get valid token operation returned valid token with creationDate: 2017-11-02 09:44:38 +0000 expiresIn: 18000.000000
+2017-11-02 12:44:40 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <543159> [Info] Get valid token operation returned valid token with creationDate: 2017-11-02 09:44:38 +0000 expiresIn: 18000.000000
+2017-11-02 12:52:22 +[VIMLogger enableFileLogging] <545802> [Debug] VIMLogger has been loaded
+2017-11-02 12:52:22 +[VIMLogger enableFileLogging] <545802> [Debug] VIMVersion is 0.4.8
+2017-11-02 12:52:23 -[VIMApiRequestExecutor executeRequest:success:failure:] <545856> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-02 12:52:23 -[VIMApiRequestExecutor executeRequest:success:failure:] <545856> [Debug] <VIMOnboardingVersionsRequest: 0x17422abc0 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-02 12:52:23 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:] <545802> [Debug] Start onboarding startup flow
+2017-11-02 12:52:23 -[VIMIdmServiceImpl refreshAccessTokenWithCompletion:] <545802> [Debug] Asked to refresh access token. refresh token: 22dd00bc-12e5-4136-b815-ce0d660e978e
+2017-11-02 12:52:23 -[VIMApiRequestExecutor executeRequest:success:failure:] <545857> [Debug] https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh
+2017-11-02 12:52:23 -[VIMApiRequestExecutor executeRequest:success:failure:] <545857> [Debug] <VIMIdmRefreshTokenRequest: 0x170641f50 method=POST path=https://int-uat.buttonhub.com/token-manager/idm/v02/token/refresh Headers: (null)
+ Body:{"refresh_token":"22dd00bc-12e5-4136-b815-ce0d660e978e","grant_type":"refresh_token"}
+2017-11-02 12:52:23 -[VIMNetworkServiceImpl performAuthChallenge:credential:] <545819> [Warn] The authentication challenge is cancelled! authenticationMethod != NSURLAuthenticationMethodServerTrust (certificate validation).
+2017-11-02 12:52:24 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <545802> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 57;
+    "Content-Type" = "application/json";
+    Date = "Thu, 02 Nov 2017 09:52:24 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.193:8098";
+} 
+Body: {
+    android =     (
+        "1.2",
+        "2.0.0"
+    );
+    ios =     (
+        "1.2",
+        "2.0.0",
+        "2.0.1"
+    );
+}
+2017-11-02 12:52:24 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <545802> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 151;
+    "Content-Type" = "application/json";
+    Date = "Thu, 02 Nov 2017 09:52:24 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "token-manager/10.10.3.193:8088";
+    "X-Unique-ID" = "5DBBBE94:DDAF_0A0A028C:01BB_59FAEAD8_001E:5203";
+} 
+Body: {
+    "access_token" = "dbc1b53d-7538-41e1-8c92-1e96592fda4c";
+    "expires_in" = 18000;
+    "refresh_token" = "22dd00bc-12e5-4136-b815-ce0d660e978e";
+    "token_type" = Bearer;
+}
+2017-11-02 12:52:24 -[VIMIdmAuthorizationDataCache invalidate] <545802> [Debug] Cleaned auth data from keychain: <VIMIdmAuthorizationData: 0x1742456a0 accessToken:1d574a4c-33c5-4760-a619-9ea403c84c4d refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-02 09:44:38 +0000 expiresIn:18000.000000> persistent:1
+2017-11-02 12:52:24 -[VIMIdmAuthorizationDataCache updateWithValue:persistent:] <545802> [Debug] Update auth data with: <VIMIdmAuthorizationData: 0x17425aa90 accessToken:dbc1b53d-7538-41e1-8c92-1e96592fda4c refreshToken:22dd00bc-12e5-4136-b815-ce0d660e978e creationDate:2017-11-02 09:52:24 +0000 expiresIn:18000.000000> persistent:1
+2017-11-02 12:52:24 -[VIMOnboardingStartupFlowCoordinator startWithCompletion:]_block_invoke <545802> [Debug] Onboarding startup flow is finished with result: 2
+2017-11-02 12:52:25 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <545802> [Info] Get valid token operation returned valid token with creationDate: 2017-11-02 09:52:24 +0000 expiresIn: 18000.000000
+2017-11-02 12:52:25 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <545802> [Info] Get valid token operation returned valid token with creationDate: 2017-11-02 09:52:24 +0000 expiresIn: 18000.000000
+2017-11-02 12:52:28 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <545802> [Info] Get valid token operation returned valid token with creationDate: 2017-11-02 09:52:24 +0000 expiresIn: 18000.000000
+2017-11-02 12:52:28 -[VIMUserAccountGetValidAccessTokenOperation getTokenWithCompletion:] <545802> [Info] Get valid token operation returned valid token with creationDate: 2017-11-02 09:52:24 +0000 expiresIn: 18000.000000
+2017-11-02 12:59:24 -[VIMApiRequestExecutor executeRequest:success:failure:] <547648> [Debug] https://int-uat.buttonhub.com/wayf/idm/v02/discovery/versions
+2017-11-02 12:59:24 -[VIMApiRequestExecutor executeRequest:success:failure:] <547648> [Debug] <VIMOnboardingVersionsRequest: 0x174438f60 method=GET path=wayf/idm/v02/discovery/versions Headers: {
+    "Accept-Language" = en;
+    "User-Agent" = "Veon/2.0.19(1153) (com.steppechange.Button iPhone(iPhone7,1) 10.1.1)";
+}
+ Body:(null)
+2017-11-02 12:59:24 -[VIMNetworkServiceImpl performAuthChallenge:credential:] <547142> [Warn] The authentication challenge is cancelled! authenticationMethod != NSURLAuthenticationMethodServerTrust (certificate validation).
+2017-11-02 12:59:24 -[VIMNetworkServiceImpl dataTaskWithMethod:URLString:parameters:bodyType:headers:success:failure:]_block_invoke <545802> [Debug] HTTP Response SUCCESS (Code 200)
+Headers: {
+    "Cache-Control" = "must-revalidate, no-cache";
+    "Content-Length" = 57;
+    "Content-Type" = "application/json";
+    Date = "Thu, 02 Nov 2017 09:59:24 GMT";
+    Expires = 0;
+    Pragma = "no-cache";
+    "X-App-Server" = "wayf/10.10.3.193:8098";
+} 
+Body: {
+    android =     (
+        "1.2",
+        "2.0.0"
+    );
+    ios =     (
+        "1.2",
+        "2.0.0",
+        "2.0.1"
+    );
+}

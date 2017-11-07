@@ -1,0 +1,1310 @@
+[2017-11-02T08:00:10Z] [network] Last PING was 11.996727 seconds ago
+[2017-11-02T08:00:10Z] [network] Last Server activity was 11.783318 seconds ago
+[2017-11-02T08:00:10Z] [network] --> Send PING
+[2017-11-02T08:00:10Z] [network] <-- Received PONG
+[2017-11-02T08:00:22Z] [network] Last PING was 11.997791 seconds ago
+[2017-11-02T08:00:22Z] [network] Last Server activity was 11.797312 seconds ago
+[2017-11-02T08:00:22Z] [network] --> Send PING
+[2017-11-02T08:00:22Z] [network] <-- Received PONG
+[2017-11-02T08:00:34Z] [network] Last PING was 11.951629 seconds ago
+[2017-11-02T08:00:34Z] [network] Last Server activity was 11.774927 seconds ago
+[2017-11-02T08:00:34Z] [network] --> Send PING
+[2017-11-02T08:00:34Z] [network] <-- Received PONG
+[2017-11-02T08:00:46Z] [network] Last PING was 12.033528 seconds ago
+[2017-11-02T08:00:46Z] [network] Last Server activity was 11.828386 seconds ago
+[2017-11-02T08:00:46Z] [network] --> Send PING
+[2017-11-02T08:00:46Z] [network] <-- Received PONG
+[2017-11-02T08:00:58Z] [network] Last PING was 11.972632 seconds ago
+[2017-11-02T08:00:58Z] [network] Last Server activity was 11.818829 seconds ago
+[2017-11-02T08:00:58Z] [network] --> Send PING
+[2017-11-02T08:00:58Z] [network] <-- Received PONG
+[2017-11-02T08:01:10Z] [network] Last PING was 12.016691 seconds ago
+[2017-11-02T08:01:10Z] [network] Last Server activity was 11.855381 seconds ago
+[2017-11-02T08:01:10Z] [network] --> Send PING
+[2017-11-02T08:01:10Z] [network] <-- Received PONG
+[2017-11-02T08:01:12Z] [network] <-- Received event 'Set User (15)' with payload: {
+    from = "BEE_RU_8ca526f28f01cbe4f6e93f9e2eaa7f1726105aed";
+    seq = "BEE_RU_8ca526f28f01cbe4f6e93f9e2eaa7f1726105aed";
+    state =     {
+        "last_seen" = 1509609672158;
+    };
+    to = "ROW_UA_c161e06eb9fd20762e3d38ef68a962324bc2dbd2";
+    ts = 1509609672160;
+}
+[2017-11-02T08:01:12Z] [network] Add event with priority 0 to processing queue: {
+    from = "BEE_RU_8ca526f28f01cbe4f6e93f9e2eaa7f1726105aed";
+    seq = "BEE_RU_8ca526f28f01cbe4f6e93f9e2eaa7f1726105aed";
+    state =     {
+        "last_seen" = 1509609672158;
+    };
+    to = "ROW_UA_c161e06eb9fd20762e3d38ef68a962324bc2dbd2";
+    ts = 1509609672160;
+}
+[2017-11-02T08:01:12Z] [network] 1 Events in Queue with priority 0
+[2017-11-02T08:01:12Z] [network] Received Event for command Set User (15) (priority 0) with payload: {
+    from = "BEE_RU_8ca526f28f01cbe4f6e93f9e2eaa7f1726105aed";
+    seq = "BEE_RU_8ca526f28f01cbe4f6e93f9e2eaa7f1726105aed";
+    state =     {
+        "last_seen" = 1509609672158;
+    };
+    to = "ROW_UA_c161e06eb9fd20762e3d38ef68a962324bc2dbd2";
+    ts = 1509609672160;
+}
+[2017-11-02T08:01:12Z] [network] Use personal Event Handler: <BTNUsersManager: 0x1740cefc0>
+[2017-11-02T08:01:12Z] [db] Find user item for SEQ: BEE_RU_8ca526f28f01cbe4f6e93f9e2eaa7f1726105aed
+[2017-11-02T08:01:12Z] [db] Found user item for SEQ: BEE_RU_8ca526f28f01cbe4f6e93f9e2eaa7f1726105aed <BTNUserItem: 0x1702eab00> (entity: UserItem; id: 0xd000000000140004 <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/UserItem/p5> ; data: {
+    abHasName = 1;
+    abHasSmsOutNumbers = 0;
+    abMainRecordId = 116;
+    abRecords = "<relationship fault: 0x170424f00 'abRecords'>";
+    activeState = 0;
+    adminedGroupItems = "<relationship fault: 0x170423c40 'adminedGroupItems'>";
+    avatarMediaContentItem = nil;
+    avatarPredefinedName = nil;
+    birthday = nil;
+    callHistoryItems =     (
+        "0xd00000000008000e <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/CallHistoryItem/p2>",
+        "0xd00000000020000e <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/CallHistoryItem/p8>",
+        "0xd0000000001c000e <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/CallHistoryItem/p7>",
+        "0xd00000000014000e <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/CallHistoryItem/p5>",
+        "0xd00000000028000e <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/CallHistoryItem/p10>",
+        "0xd00000000004000e <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/CallHistoryItem/p1>",
+        "0xd00000000010000e <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/CallHistoryItem/p4>",
+        "0xd00000000024000e <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/CallHistoryItem/p9>",
+        "0xd0000000000c000e <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/CallHistoryItem/p3>",
+        "0xd00000000018000e <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/CallHistoryItem/p6>"
+    );
+    contactsMessageItems = "<relationship fault: 0x170423b20 'contactsMessageItems'>";
+    email = nil;
+    facebookAvatarHash = 0;
+    facebookCoverUrl = nil;
+    facebookId = 0;
+    firstName = "\U0410\U043b\U0435\U043a\U0441\U0435\U0439";
+    firstNameIndexLetter = "\U0410";
+    friendState = 3;
+    gender = 0;
+    groupItems = "<relationship fault: 0x170423ae0 'groupItems'>";
+    groupMessageItems = "<relationship fault: 0x17023a1e0 'groupMessageItems'>";
+    invitationDate = nil;
+    invitationSent = nil;
+    isNew = 1;
+    lastName = "\U0413\U043e\U043b\U044f\U0442\U0438\U043d";
+    lastNameIndexLetter = "\U0413";
+    lastPersonalMessageDate = "2017-11-02 07:57:34 +0000";
+    lastSeen = "2017-11-02 07:46:20 +0000";
+    lastUpdateTS = 150960877184;
+    liveIn = nil;
+    locationItem = nil;
+    mediaContentItems = "<relationship fault: 0x170423ce0 'mediaContentItems'>";
+    messageItems =     (
+        "0xd000000000700008 <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/MessageItem/p28>",
+        "0xd0000000006c0008 <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/MessageItem/p27>",
+        "0xd000000000580008 <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/MessageItem/p22>",
+        "0xd000000000640008 <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/MessageItem/p25>",
+        "0xd000000000040008 <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/MessageItem/p1>",
+        "0xd000000000540008 <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/MessageItem/p21>",
+        "0xd000000000500008 <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/MessageItem/p20>",
+        "0xd000000000600008 <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/MessageItem/p24>",
+        "0xd0000000005c0008 <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/MessageItem/p23>",
+        "0xd000000000680008 <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/MessageItem/p26>"
+    );
+    oldFriendState = "-10";
+    online = 1;
+    personalGroupItem = "0xd000000000040006 <x-coredata://CE364CD3-59D3-4B90-8066-DDC95571D92F/GroupItem/p1>";
+    phone = 79110845138;
+    prefsBirthday = 0;
+    prefsGender = 0;
+    prefsLastSeen = 1;
+    prefsLiveIn = 0;
+    prefsRelationship = 0;
+    prefsSearch = 1;
+    relationship = 0;
+    seq = "BEE_RU_8ca526f28f01cbe4f6e93f9e2eaa7f1726105aed";
+    state = 100;
+    status = nil;
+    useFacebookAvatar = nil;
+})
+[2017-11-02T08:01:12Z] [ui] [Friends] controllerWillChangeContent
+[2017-11-02T08:01:12Z] [ui] [Friends] didChangeObject atIndexPath:<NSIndexPath: 0xc000000000400016> {length = 2, path = 0 - 2} forChangeType:4 newIndexPath:<NSIndexPath: 0xc000000000400016> {length = 2, path = 0 - 2}
+[2017-11-02T08:01:12Z] [ui] [Friends] controllerWillChangeContent
+[2017-11-02T08:01:12Z] [ui] [Friends] didChangeObject atIndexPath:<NSIndexPath: 0xc000000000400016> {length = 2, path = 0 - 2} forChangeType:4 newIndexPath:<NSIndexPath: 0xc000000000400016> {length = 2, path = 0 - 2}
+[2017-11-02T08:01:12Z] [network] Use default Event Handler: <BTNDefaultEventHandler: 0x17045cef0>
+[2017-11-02T08:01:12Z] [network] Event processing finished.
+[2017-11-02T08:01:12Z] [network] 0 Events in Queue with priority 0
+[2017-11-02T08:01:12Z] [network] No events to process
+[2017-11-02T08:01:22Z] [network] Last PING was 12.024350 seconds ago
+[2017-11-02T08:01:22Z] [network] Last Server activity was 10.260732 seconds ago
+[2017-11-02T08:01:22Z] [network] --> Send PING
+[2017-11-02T08:01:22Z] [network] <-- Received PONG
+[2017-11-02T08:01:34Z] [network] Last PING was 11.951596 seconds ago
+[2017-11-02T08:01:34Z] [network] Last Server activity was 11.771368 seconds ago
+[2017-11-02T08:01:34Z] [network] --> Send PING
+[2017-11-02T08:01:34Z] [network] <-- Received PONG
+[2017-11-02T08:01:46Z] [network] Last PING was 12.037458 seconds ago
+[2017-11-02T08:01:46Z] [network] Last Server activity was 11.831429 seconds ago
+[2017-11-02T08:01:46Z] [network] --> Send PING
+[2017-11-02T08:01:46Z] [network] <-- Received PONG
+[2017-11-02T08:01:58Z] [network] Last PING was 11.984467 seconds ago
+[2017-11-02T08:01:58Z] [network] Last Server activity was 11.732829 seconds ago
+[2017-11-02T08:01:58Z] [network] --> Send PING
+[2017-11-02T08:01:58Z] [network] <-- Received PONG
+[2017-11-02T08:02:10Z] [network] Last PING was 11.974423 seconds ago
+[2017-11-02T08:02:10Z] [network] Last Server activity was 11.730205 seconds ago
+[2017-11-02T08:02:10Z] [network] --> Send PING
+[2017-11-02T08:02:10Z] [network] <-- Received PONG
+[2017-11-02T08:02:22Z] [network] Last PING was 11.996374 seconds ago
+[2017-11-02T08:02:22Z] [network] Last Server activity was 11.743740 seconds ago
+[2017-11-02T08:02:22Z] [network] --> Send PING
+[2017-11-02T08:02:22Z] [network] <-- Received PONG
+[2017-11-02T08:02:34Z] [network] Last PING was 12.026344 seconds ago
+[2017-11-02T08:02:34Z] [network] Last Server activity was 11.793691 seconds ago
+[2017-11-02T08:02:34Z] [network] --> Send PING
+[2017-11-02T08:02:34Z] [network] <-- Received PONG
+[2017-11-02T08:02:46Z] [network] Last PING was 12.016677 seconds ago
+[2017-11-02T08:02:46Z] [network] Last Server activity was 11.829316 seconds ago
+[2017-11-02T08:02:46Z] [network] --> Send PING
+[2017-11-02T08:02:46Z] [network] <-- Received PONG
+[2017-11-02T08:02:58Z] [network] Last PING was 11.949468 seconds ago
+[2017-11-02T08:02:58Z] [network] Last Server activity was 11.698120 seconds ago
+[2017-11-02T08:02:58Z] [network] --> Send PING
+[2017-11-02T08:02:58Z] [network] <-- Received PONG
+[2017-11-02T08:03:10Z] [network] Last PING was 11.993271 seconds ago
+[2017-11-02T08:03:10Z] [network] Last Server activity was 11.814168 seconds ago
+[2017-11-02T08:03:10Z] [network] --> Send PING
+[2017-11-02T08:03:10Z] [network] <-- Received PONG
+[2017-11-02T08:03:22Z] [network] Last PING was 12.045143 seconds ago
+[2017-11-02T08:03:22Z] [network] Last Server activity was 11.883139 seconds ago
+[2017-11-02T08:03:22Z] [network] --> Send PING
+[2017-11-02T08:03:22Z] [network] <-- Received PONG
+[2017-11-02T08:03:34Z] [network] Last PING was 11.957014 seconds ago
+[2017-11-02T08:03:34Z] [network] Last Server activity was 11.756137 seconds ago
+[2017-11-02T08:03:34Z] [network] --> Send PING
+[2017-11-02T08:03:34Z] [network] <-- Received PONG
+[2017-11-02T08:03:46Z] [network] Last PING was 12.011295 seconds ago
+[2017-11-02T08:03:46Z] [network] Last Server activity was 11.785697 seconds ago
+[2017-11-02T08:03:46Z] [network] --> Send PING
+[2017-11-02T08:03:46Z] [network] <-- Received PONG
+[2017-11-02T08:03:58Z] [network] Last PING was 11.963452 seconds ago
+[2017-11-02T08:03:58Z] [network] Last Server activity was 11.772797 seconds ago
+[2017-11-02T08:03:58Z] [network] --> Send PING
+[2017-11-02T08:03:58Z] [network] <-- Received PONG
+[2017-11-02T08:04:10Z] [network] Last PING was 12.047732 seconds ago
+[2017-11-02T08:04:10Z] [network] Last Server activity was 11.839188 seconds ago
+[2017-11-02T08:04:10Z] [network] --> Send PING
+[2017-11-02T08:04:10Z] [network] <-- Received PONG
+[2017-11-02T08:04:22Z] [network] Last PING was 12.001896 seconds ago
+[2017-11-02T08:04:22Z] [network] Last Server activity was 11.764361 seconds ago
+[2017-11-02T08:04:22Z] [network] --> Send PING
+[2017-11-02T08:04:22Z] [network] <-- Received PONG
+[2017-11-02T08:04:34Z] [network] Last PING was 11.957695 seconds ago
+[2017-11-02T08:04:34Z] [network] Last Server activity was 11.742561 seconds ago
+[2017-11-02T08:04:34Z] [network] --> Send PING
+[2017-11-02T08:04:34Z] [network] <-- Received PONG
+[2017-11-02T08:04:46Z] [network] Last PING was 12.027633 seconds ago
+[2017-11-02T08:04:46Z] [network] Last Server activity was 11.885480 seconds ago
+[2017-11-02T08:04:46Z] [network] --> Send PING
+[2017-11-02T08:04:46Z] [network] <-- Received PONG
+[2017-11-02T08:04:58Z] [network] Last PING was 11.974206 seconds ago
+[2017-11-02T08:04:58Z] [network] Last Server activity was 11.785283 seconds ago
+[2017-11-02T08:04:58Z] [network] --> Send PING
+[2017-11-02T08:04:58Z] [network] <-- Received PONG
+[2017-11-02T08:05:10Z] [network] Last PING was 12.040580 seconds ago
+[2017-11-02T08:05:10Z] [network] Last Server activity was 11.847000 seconds ago
+[2017-11-02T08:05:10Z] [network] --> Send PING
+[2017-11-02T08:05:10Z] [network] <-- Received PONG
+[2017-11-02T08:05:22Z] [network] Last PING was 11.980106 seconds ago
+[2017-11-02T08:05:22Z] [network] Last Server activity was 11.746658 seconds ago
+[2017-11-02T08:05:22Z] [network] --> Send PING
+[2017-11-02T08:05:22Z] [network] <-- Received PONG
+[2017-11-02T08:05:34Z] [network] Last PING was 12.009765 seconds ago
+[2017-11-02T08:05:34Z] [network] Last Server activity was 11.777080 seconds ago
+[2017-11-02T08:05:34Z] [network] --> Send PING
+[2017-11-02T08:05:34Z] [network] <-- Received PONG
+[2017-11-02T08:05:46Z] [network] Last PING was 11.953275 seconds ago
+[2017-11-02T08:05:46Z] [network] Last Server activity was 11.748223 seconds ago
+[2017-11-02T08:05:46Z] [network] --> Send PING
+[2017-11-02T08:05:46Z] [network] <-- Received PONG
+[2017-11-02T08:05:58Z] [network] Last PING was 12.045331 seconds ago
+[2017-11-02T08:05:58Z] [network] Last Server activity was 11.817083 seconds ago
+[2017-11-02T08:05:58Z] [network] --> Send PING
+[2017-11-02T08:05:58Z] [network] <-- Received PONG
+[2017-11-02T08:06:10Z] [network] Last PING was 12.008222 seconds ago
+[2017-11-02T08:06:10Z] [network] Last Server activity was 11.845228 seconds ago
+[2017-11-02T08:06:10Z] [network] --> Send PING
+[2017-11-02T08:06:10Z] [network] <-- Received PONG
+[2017-11-02T08:06:22Z] [network] Last PING was 11.957955 seconds ago
+[2017-11-02T08:06:22Z] [network] Last Server activity was 11.723741 seconds ago
+[2017-11-02T08:06:22Z] [network] --> Send PING
+[2017-11-02T08:06:22Z] [network] <-- Received PONG
+[2017-11-02T08:06:34Z] [network] Last PING was 11.989045 seconds ago
+[2017-11-02T08:06:34Z] [network] Last Server activity was 11.836097 seconds ago
+[2017-11-02T08:06:34Z] [network] --> Send PING
+[2017-11-02T08:06:34Z] [network] <-- Received PONG
+[2017-11-02T08:06:46Z] [network] Last PING was 12.033327 seconds ago
+[2017-11-02T08:06:46Z] [network] Last Server activity was 11.787331 seconds ago
+[2017-11-02T08:06:46Z] [network] --> Send PING
+[2017-11-02T08:06:46Z] [network] <-- Received PONG
+[2017-11-02T08:06:58Z] [network] Last PING was 11.993312 seconds ago
+[2017-11-02T08:06:58Z] [network] Last Server activity was 11.803579 seconds ago
+[2017-11-02T08:06:58Z] [network] --> Send PING
+[2017-11-02T08:06:58Z] [network] <-- Received PONG
+[2017-11-02T08:07:10Z] [network] Last PING was 11.991497 seconds ago
+[2017-11-02T08:07:10Z] [network] Last Server activity was 11.815312 seconds ago
+[2017-11-02T08:07:10Z] [network] --> Send PING
+[2017-11-02T08:07:10Z] [network] <-- Received PONG
+[2017-11-02T08:07:22Z] [network] Last PING was 11.974700 seconds ago
+[2017-11-02T08:07:22Z] [network] Last Server activity was 11.811951 seconds ago
+[2017-11-02T08:07:22Z] [network] --> Send PING
+[2017-11-02T08:07:22Z] [network] <-- Received PONG
+[2017-11-02T08:07:34Z] [network] Last PING was 11.989337 seconds ago
+[2017-11-02T08:07:34Z] [network] Last Server activity was 11.818502 seconds ago
+[2017-11-02T08:07:34Z] [network] --> Send PING
+[2017-11-02T08:07:34Z] [network] <-- Received PONG
+[2017-11-02T08:07:46Z] [network] Last PING was 12.004598 seconds ago
+[2017-11-02T08:07:46Z] [network] Last Server activity was 11.847440 seconds ago
+[2017-11-02T08:07:46Z] [network] --> Send PING
+[2017-11-02T08:07:46Z] [network] <-- Received PONG
+[2017-11-02T08:07:58Z] [network] Last PING was 12.011282 seconds ago
+[2017-11-02T08:07:58Z] [network] Last Server activity was 11.774364 seconds ago
+[2017-11-02T08:07:58Z] [network] --> Send PING
+[2017-11-02T08:07:58Z] [network] <-- Received PONG
+[2017-11-02T08:08:10Z] [network] Last PING was 11.990043 seconds ago
+[2017-11-02T08:08:10Z] [network] Last Server activity was 11.788011 seconds ago
+[2017-11-02T08:08:10Z] [network] --> Send PING
+[2017-11-02T08:08:10Z] [network] <-- Received PONG
+[2017-11-02T08:08:22Z] [network] Last PING was 11.990035 seconds ago
+[2017-11-02T08:08:22Z] [network] Last Server activity was 11.795891 seconds ago
+[2017-11-02T08:08:22Z] [network] --> Send PING
+[2017-11-02T08:08:22Z] [network] <-- Received PONG
+[2017-11-02T08:08:34Z] [network] Last PING was 12.047547 seconds ago
+[2017-11-02T08:08:34Z] [network] Last Server activity was 11.862624 seconds ago
+[2017-11-02T08:08:34Z] [network] --> Send PING
+[2017-11-02T08:08:34Z] [network] <-- Received PONG
+[2017-11-02T08:08:46Z] [network] Last PING was 11.937364 seconds ago
+[2017-11-02T08:08:46Z] [network] Last Server activity was 11.723842 seconds ago
+[2017-11-02T08:08:46Z] [network] --> Send PING
+[2017-11-02T08:08:46Z] [network] <-- Received PONG
+[2017-11-02T08:08:58Z] [network] Last PING was 12.033749 seconds ago
+[2017-11-02T08:08:58Z] [network] Last Server activity was 11.878533 seconds ago
+[2017-11-02T08:08:58Z] [network] --> Send PING
+[2017-11-02T08:08:58Z] [network] <-- Received PONG
+[2017-11-02T08:09:10Z] [network] Last PING was 11.966067 seconds ago
+[2017-11-02T08:09:10Z] [network] Last Server activity was 11.764045 seconds ago
+[2017-11-02T08:09:10Z] [network] --> Send PING
+[2017-11-02T08:09:10Z] [network] <-- Received PONG
+[2017-11-02T08:09:22Z] [network] Last PING was 12.004443 seconds ago
+[2017-11-02T08:09:22Z] [network] Last Server activity was 11.787942 seconds ago
+[2017-11-02T08:09:22Z] [network] --> Send PING
+[2017-11-02T08:09:22Z] [network] <-- Received PONG
+[2017-11-02T08:09:34Z] [network] Last PING was 12.048139 seconds ago
+[2017-11-02T08:09:34Z] [network] Last Server activity was 11.860410 seconds ago
+[2017-11-02T08:09:34Z] [network] --> Send PING
+[2017-11-02T08:09:34Z] [network] <-- Received PONG
+[2017-11-02T08:09:46Z] [network] Last PING was 11.974278 seconds ago
+[2017-11-02T08:09:46Z] [network] Last Server activity was 11.753688 seconds ago
+[2017-11-02T08:09:46Z] [network] --> Send PING
+[2017-11-02T08:09:46Z] [network] <-- Received PONG
+[2017-11-02T08:09:58Z] [network] Last PING was 11.994563 seconds ago
+[2017-11-02T08:09:58Z] [network] Last Server activity was 11.769132 seconds ago
+[2017-11-02T08:09:58Z] [network] --> Send PING
+[2017-11-02T08:09:58Z] [network] <-- Received PONG
+[2017-11-02T08:10:10Z] [network] Last PING was 12.016051 seconds ago
+[2017-11-02T08:10:10Z] [network] Last Server activity was 11.804715 seconds ago
+[2017-11-02T08:10:10Z] [network] --> Send PING
+[2017-11-02T08:10:10Z] [network] <-- Received PONG
+[2017-11-02T08:10:22Z] [network] Last PING was 11.957550 seconds ago
+[2017-11-02T08:10:22Z] [network] Last Server activity was 11.781619 seconds ago
+[2017-11-02T08:10:22Z] [network] --> Send PING
+[2017-11-02T08:10:22Z] [network] <-- Received PONG
+[2017-11-02T08:10:34Z] [network] Last PING was 12.033117 seconds ago
+[2017-11-02T08:10:34Z] [network] Last Server activity was 11.837116 seconds ago
+[2017-11-02T08:10:34Z] [network] --> Send PING
+[2017-11-02T08:10:34Z] [network] <-- Received PONG
+[2017-11-02T08:10:46Z] [network] Last PING was 11.989314 seconds ago
+[2017-11-02T08:10:46Z] [network] Last Server activity was 11.747105 seconds ago
+[2017-11-02T08:10:46Z] [network] --> Send PING
+[2017-11-02T08:10:46Z] [network] <-- Received PONG
+[2017-11-02T08:10:58Z] [network] Last PING was 12.000889 seconds ago
+[2017-11-02T08:10:58Z] [network] Last Server activity was 11.768451 seconds ago
+[2017-11-02T08:10:58Z] [network] --> Send PING
+[2017-11-02T08:10:58Z] [network] <-- Received PONG
+[2017-11-02T08:11:10Z] [network] Last PING was 12.014362 seconds ago
+[2017-11-02T08:11:10Z] [network] Last Server activity was 11.803430 seconds ago
+[2017-11-02T08:11:10Z] [network] --> Send PING
+[2017-11-02T08:11:10Z] [network] <-- Received PONG
+[2017-11-02T08:11:22Z] [network] Last PING was 11.970996 seconds ago
+[2017-11-02T08:11:22Z] [network] Last Server activity was 11.790378 seconds ago
+[2017-11-02T08:11:22Z] [network] --> Send PING
+[2017-11-02T08:11:22Z] [network] <-- Received PONG
+[2017-11-02T08:11:34Z] [network] Last PING was 12.019113 seconds ago
+[2017-11-02T08:11:34Z] [network] Last Server activity was 11.885047 seconds ago
+[2017-11-02T08:11:34Z] [network] --> Send PING
+[2017-11-02T08:11:34Z] [network] <-- Received PONG
+[2017-11-02T08:11:46Z] [network] Last PING was 12.001552 seconds ago
+[2017-11-02T08:11:46Z] [network] Last Server activity was 11.865184 seconds ago
+[2017-11-02T08:11:46Z] [network] --> Send PING
+[2017-11-02T08:11:46Z] [network] <-- Received PONG
+[2017-11-02T08:11:58Z] [network] Last PING was 12.008033 seconds ago
+[2017-11-02T08:11:58Z] [network] Last Server activity was 11.868346 seconds ago
+[2017-11-02T08:11:58Z] [network] --> Send PING
+[2017-11-02T08:11:58Z] [network] <-- Received PONG
+[2017-11-02T08:12:10Z] [network] Last PING was 11.960536 seconds ago
+[2017-11-02T08:12:10Z] [network] Last Server activity was 11.824705 seconds ago
+[2017-11-02T08:12:10Z] [network] --> Send PING
+[2017-11-02T08:12:10Z] [network] <-- Received PONG
+[2017-11-02T08:12:22Z] [network] Last PING was 12.021712 seconds ago
+[2017-11-02T08:12:22Z] [network] Last Server activity was 11.886860 seconds ago
+[2017-11-02T08:12:22Z] [network] --> Send PING
+[2017-11-02T08:12:22Z] [network] <-- Received PONG
+[2017-11-02T08:12:34Z] [network] Last PING was 12.014533 seconds ago
+[2017-11-02T08:12:34Z] [network] Last Server activity was 11.876745 seconds ago
+[2017-11-02T08:12:34Z] [network] --> Send PING
+[2017-11-02T08:12:34Z] [network] <-- Received PONG
+[2017-11-02T08:12:46Z] [network] Last PING was 11.999954 seconds ago
+[2017-11-02T08:12:46Z] [network] Last Server activity was 11.863418 seconds ago
+[2017-11-02T08:12:46Z] [network] --> Send PING
+[2017-11-02T08:12:46Z] [network] <-- Received PONG
+[2017-11-02T08:12:58Z] [network] Last PING was 11.993103 seconds ago
+[2017-11-02T08:12:58Z] [network] Last Server activity was 11.767148 seconds ago
+[2017-11-02T08:12:58Z] [network] --> Send PING
+[2017-11-02T08:12:58Z] [network] <-- Received PONG
+[2017-11-02T08:13:10Z] [network] Last PING was 11.949934 seconds ago
+[2017-11-02T08:13:10Z] [network] Last Server activity was 11.809799 seconds ago
+[2017-11-02T08:13:10Z] [network] --> Send PING
+[2017-11-02T08:13:10Z] [network] <-- Received PONG
+[2017-11-02T08:13:22Z] [network] Last PING was 12.002948 seconds ago
+[2017-11-02T08:13:22Z] [network] Last Server activity was 11.757788 seconds ago
+[2017-11-02T08:13:22Z] [network] --> Send PING
+[2017-11-02T08:13:22Z] [network] <-- Received PONG
+[2017-11-02T08:13:34Z] [network] Last PING was 11.989994 seconds ago
+[2017-11-02T08:13:34Z] [network] Last Server activity was 11.769765 seconds ago
+[2017-11-02T08:13:34Z] [network] --> Send PING
+[2017-11-02T08:13:34Z] [network] <-- Received PONG
+[2017-11-02T08:13:46Z] [network] Last PING was 12.017658 seconds ago
+[2017-11-02T08:13:46Z] [network] Last Server activity was 11.806740 seconds ago
+[2017-11-02T08:13:46Z] [network] --> Send PING
+[2017-11-02T08:13:46Z] [network] <-- Received PONG
+[2017-11-02T08:13:58Z] [network] Last PING was 11.979109 seconds ago
+[2017-11-02T08:13:58Z] [network] Last Server activity was 11.805631 seconds ago
+[2017-11-02T08:13:58Z] [network] --> Send PING
+[2017-11-02T08:13:58Z] [network] <-- Received PONG
+[2017-11-02T08:14:10Z] [network] Last PING was 12.038686 seconds ago
+[2017-11-02T08:14:10Z] [network] Last Server activity was 11.864262 seconds ago
+[2017-11-02T08:14:10Z] [network] --> Send PING
+[2017-11-02T08:14:10Z] [network] <-- Received PONG
+[2017-11-02T08:14:22Z] [network] Last PING was 11.967300 seconds ago
+[2017-11-02T08:14:22Z] [network] Last Server activity was 11.827758 seconds ago
+[2017-11-02T08:14:22Z] [network] --> Send PING
+[2017-11-02T08:14:22Z] [network] <-- Received PONG
+[2017-11-02T08:14:34Z] [network] Last PING was 11.982239 seconds ago
+[2017-11-02T08:14:34Z] [network] Last Server activity was 11.751653 seconds ago
+[2017-11-02T08:14:34Z] [network] --> Send PING
+[2017-11-02T08:14:34Z] [network] <-- Received PONG
+[2017-11-02T08:14:46Z] [network] Last PING was 12.036715 seconds ago
+[2017-11-02T08:14:46Z] [network] Last Server activity was 11.800523 seconds ago
+[2017-11-02T08:14:46Z] [network] --> Send PING
+[2017-11-02T08:14:46Z] [network] <-- Received PONG
+[2017-11-02T08:14:58Z] [network] Last PING was 12.003249 seconds ago
+[2017-11-02T08:14:58Z] [network] Last Server activity was 11.834045 seconds ago
+[2017-11-02T08:14:58Z] [network] --> Send PING
+[2017-11-02T08:14:58Z] [network] <-- Received PONG
+[2017-11-02T08:15:10Z] [network] Last PING was 11.990169 seconds ago
+[2017-11-02T08:15:10Z] [network] Last Server activity was 11.743768 seconds ago
+[2017-11-02T08:15:10Z] [network] --> Send PING
+[2017-11-02T08:15:10Z] [network] <-- Received PONG
+[2017-11-02T08:15:22Z] [network] Last PING was 12.012653 seconds ago
+[2017-11-02T08:15:22Z] [network] Last Server activity was 11.772856 seconds ago
+[2017-11-02T08:15:22Z] [network] --> Send PING
+[2017-11-02T08:15:22Z] [network] <-- Received PONG
+[2017-11-02T08:15:34Z] [network] Last PING was 11.994139 seconds ago
+[2017-11-02T08:15:34Z] [network] Last Server activity was 11.790410 seconds ago
+[2017-11-02T08:15:34Z] [network] --> Send PING
+[2017-11-02T08:15:34Z] [network] <-- Received PONG
+[2017-11-02T08:15:46Z] [network] Last PING was 12.006867 seconds ago
+[2017-11-02T08:15:46Z] [network] Last Server activity was 11.818944 seconds ago
+[2017-11-02T08:15:46Z] [network] --> Send PING
+[2017-11-02T08:15:46Z] [network] <-- Received PONG
+[2017-11-02T08:15:58Z] [network] Last PING was 11.997412 seconds ago
+[2017-11-02T08:15:58Z] [network] Last Server activity was 11.750772 seconds ago
+[2017-11-02T08:15:58Z] [network] --> Send PING
+[2017-11-02T08:15:58Z] [network] <-- Received PONG
+[2017-11-02T08:16:10Z] [network] Last PING was 11.990712 seconds ago
+[2017-11-02T08:16:10Z] [network] Last Server activity was 11.761463 seconds ago
+[2017-11-02T08:16:10Z] [network] --> Send PING
+[2017-11-02T08:16:10Z] [network] <-- Received PONG
+[2017-11-02T08:16:22Z] [network] Last PING was 11.942715 seconds ago
+[2017-11-02T08:16:22Z] [network] Last Server activity was 11.723578 seconds ago
+[2017-11-02T08:16:22Z] [network] --> Send PING
+[2017-11-02T08:16:22Z] [network] <-- Received PONG
+[2017-11-02T08:16:34Z] [network] Last PING was 12.051130 seconds ago
+[2017-11-02T08:16:34Z] [network] Last Server activity was 11.899909 seconds ago
+[2017-11-02T08:16:34Z] [network] --> Send PING
+[2017-11-02T08:16:34Z] [network] <-- Received PONG
+[2017-11-02T08:16:46Z] [network] Last PING was 11.958943 seconds ago
+[2017-11-02T08:16:46Z] [network] Last Server activity was 11.778184 seconds ago
+[2017-11-02T08:16:46Z] [network] --> Send PING
+[2017-11-02T08:16:46Z] [network] <-- Received PONG
+[2017-11-02T08:16:58Z] [network] Last PING was 12.027985 seconds ago
+[2017-11-02T08:16:58Z] [network] Last Server activity was 11.826780 seconds ago
+[2017-11-02T08:16:58Z] [network] --> Send PING
+[2017-11-02T08:16:58Z] [network] <-- Received PONG
+[2017-11-02T08:17:10Z] [network] Last PING was 11.956594 seconds ago
+[2017-11-02T08:17:10Z] [network] Last Server activity was 11.804133 seconds ago
+[2017-11-02T08:17:10Z] [network] --> Send PING
+[2017-11-02T08:17:10Z] [network] <-- Received PONG
+[2017-11-02T08:17:22Z] [network] Last PING was 12.048999 seconds ago
+[2017-11-02T08:17:22Z] [network] Last Server activity was 11.872351 seconds ago
+[2017-11-02T08:17:22Z] [network] --> Send PING
+[2017-11-02T08:17:22Z] [network] <-- Received PONG
+[2017-11-02T08:17:34Z] [network] Last PING was 12.003258 seconds ago
+[2017-11-02T08:17:34Z] [network] Last Server activity was 11.793657 seconds ago
+[2017-11-02T08:17:34Z] [network] --> Send PING
+[2017-11-02T08:17:34Z] [network] <-- Received PONG
+[2017-11-02T08:17:46Z] [network] Last PING was 11.969771 seconds ago
+[2017-11-02T08:17:46Z] [network] Last Server activity was 11.784207 seconds ago
+[2017-11-02T08:17:46Z] [network] --> Send PING
+[2017-11-02T08:17:46Z] [network] <-- Received PONG
+[2017-11-02T08:17:58Z] [network] Last PING was 12.023051 seconds ago
+[2017-11-02T08:17:58Z] [network] Last Server activity was 11.830510 seconds ago
+[2017-11-02T08:17:58Z] [network] --> Send PING
+[2017-11-02T08:17:58Z] [network] <-- Received PONG
+[2017-11-02T08:18:10Z] [network] Last PING was 11.996549 seconds ago
+[2017-11-02T08:18:10Z] [network] Last Server activity was 11.845131 seconds ago
+[2017-11-02T08:18:10Z] [network] --> Send PING
+[2017-11-02T08:18:10Z] [network] <-- Received PONG
+[2017-11-02T08:18:22Z] [network] Last PING was 11.994014 seconds ago
+[2017-11-02T08:18:22Z] [network] Last Server activity was 11.760791 seconds ago
+[2017-11-02T08:18:22Z] [network] --> Send PING
+[2017-11-02T08:18:22Z] [network] <-- Received PONG
+[2017-11-02T08:18:34Z] [network] Last PING was 12.010915 seconds ago
+[2017-11-02T08:18:34Z] [network] Last Server activity was 11.792269 seconds ago
+[2017-11-02T08:18:34Z] [network] --> Send PING
+[2017-11-02T08:18:34Z] [network] <-- Received PONG
+[2017-11-02T08:18:46Z] [network] Last PING was 11.969753 seconds ago
+[2017-11-02T08:18:46Z] [network] Last Server activity was 11.782118 seconds ago
+[2017-11-02T08:18:46Z] [network] --> Send PING
+[2017-11-02T08:18:46Z] [network] <-- Received PONG
+[2017-11-02T08:18:58Z] [network] Last PING was 11.954221 seconds ago
+[2017-11-02T08:18:58Z] [network] Last Server activity was 11.755208 seconds ago
+[2017-11-02T08:18:58Z] [network] --> Send PING
+[2017-11-02T08:18:58Z] [network] <-- Received PONG
+[2017-11-02T08:19:10Z] [network] Last PING was 12.031564 seconds ago
+[2017-11-02T08:19:10Z] [network] Last Server activity was 11.807165 seconds ago
+[2017-11-02T08:19:10Z] [network] --> Send PING
+[2017-11-02T08:19:10Z] [network] <-- Received PONG
+[2017-11-02T08:19:22Z] [network] Last PING was 12.011819 seconds ago
+[2017-11-02T08:19:22Z] [network] Last Server activity was 11.842160 seconds ago
+[2017-11-02T08:19:22Z] [network] --> Send PING
+[2017-11-02T08:19:22Z] [network] <-- Received PONG
+[2017-11-02T08:19:34Z] [network] Last PING was 12.003180 seconds ago
+[2017-11-02T08:19:34Z] [network] Last Server activity was 11.762432 seconds ago
+[2017-11-02T08:19:34Z] [network] --> Send PING
+[2017-11-02T08:19:34Z] [network] <-- Received PONG
+[2017-11-02T08:19:46Z] [network] Last PING was 12.011280 seconds ago
+[2017-11-02T08:19:46Z] [network] Last Server activity was 11.796110 seconds ago
+[2017-11-02T08:19:46Z] [network] --> Send PING
+[2017-11-02T08:19:46Z] [network] <-- Received PONG
+[2017-11-02T08:19:58Z] [network] Last PING was 11.960638 seconds ago
+[2017-11-02T08:19:58Z] [network] Last Server activity was 11.773683 seconds ago
+[2017-11-02T08:19:58Z] [network] --> Send PING
+[2017-11-02T08:19:58Z] [network] <-- Received PONG
+[2017-11-02T08:20:10Z] [network] Last PING was 12.035107 seconds ago
+[2017-11-02T08:20:10Z] [network] Last Server activity was 11.831173 seconds ago
+[2017-11-02T08:20:10Z] [network] --> Send PING
+[2017-11-02T08:20:10Z] [network] <-- Received PONG
+[2017-11-02T08:20:22Z] [network] Last PING was 11.970211 seconds ago
+[2017-11-02T08:20:22Z] [network] Last Server activity was 11.743929 seconds ago
+[2017-11-02T08:20:22Z] [network] --> Send PING
+[2017-11-02T08:20:22Z] [network] <-- Received PONG
+[2017-11-02T08:20:34Z] [network] Last PING was 11.964918 seconds ago
+[2017-11-02T08:20:34Z] [network] Last Server activity was 11.810621 seconds ago
+[2017-11-02T08:20:34Z] [network] --> Send PING
+[2017-11-02T08:20:34Z] [network] <-- Received PONG
+[2017-11-02T08:20:46Z] [network] Last PING was 12.038684 seconds ago
+[2017-11-02T08:20:46Z] [network] Last Server activity was 11.764536 seconds ago
+[2017-11-02T08:20:46Z] [network] --> Send PING
+[2017-11-02T08:20:46Z] [network] <-- Received PONG
+[2017-11-02T08:20:58Z] [network] Last PING was 11.955550 seconds ago
+[2017-11-02T08:20:58Z] [network] Last Server activity was 11.741924 seconds ago
+[2017-11-02T08:20:58Z] [network] --> Send PING
+[2017-11-02T08:20:58Z] [network] <-- Received PONG
+[2017-11-02T08:21:10Z] [network] Last PING was 12.026756 seconds ago
+[2017-11-02T08:21:10Z] [network] Last Server activity was 11.790521 seconds ago
+[2017-11-02T08:21:10Z] [network] --> Send PING
+[2017-11-02T08:21:10Z] [network] <-- Received PONG
+[2017-11-02T08:21:22Z] [network] Last PING was 11.998442 seconds ago
+[2017-11-02T08:21:22Z] [network] Last Server activity was 11.811373 seconds ago
+[2017-11-02T08:21:22Z] [network] --> Send PING
+[2017-11-02T08:21:22Z] [network] <-- Received PONG
+[2017-11-02T08:21:34Z] [network] Last PING was 12.019757 seconds ago
+[2017-11-02T08:21:34Z] [network] Last Server activity was 11.849813 seconds ago
+[2017-11-02T08:21:34Z] [network] --> Send PING
+[2017-11-02T08:21:34Z] [network] <-- Received PONG
+[2017-11-02T08:21:46Z] [network] Last PING was 12.015425 seconds ago
+[2017-11-02T08:21:46Z] [network] Last Server activity was 11.783354 seconds ago
+[2017-11-02T08:21:46Z] [network] --> Send PING
+[2017-11-02T08:21:46Z] [network] <-- Received PONG
+[2017-11-02T08:21:58Z] [network] Last PING was 11.964601 seconds ago
+[2017-11-02T08:21:58Z] [network] Last Server activity was 11.768580 seconds ago
+[2017-11-02T08:21:58Z] [network] --> Send PING
+[2017-11-02T08:21:58Z] [network] <-- Received PONG
+[2017-11-02T08:22:10Z] [network] Last PING was 12.010905 seconds ago
+[2017-11-02T08:22:10Z] [network] Last Server activity was 11.800298 seconds ago
+[2017-11-02T08:22:10Z] [network] --> Send PING
+[2017-11-02T08:22:10Z] [network] <-- Received PONG
+[2017-11-02T08:22:22Z] [network] Last PING was 12.011346 seconds ago
+[2017-11-02T08:22:22Z] [network] Last Server activity was 11.835785 seconds ago
+[2017-11-02T08:22:22Z] [network] --> Send PING
+[2017-11-02T08:22:22Z] [network] <-- Received PONG
+[2017-11-02T08:22:34Z] [network] Last PING was 12.006262 seconds ago
+[2017-11-02T08:22:34Z] [network] Last Server activity was 11.761434 seconds ago
+[2017-11-02T08:22:34Z] [network] --> Send PING
+[2017-11-02T08:22:34Z] [network] <-- Received PONG
+[2017-11-02T08:22:46Z] [network] Last PING was 11.964171 seconds ago
+[2017-11-02T08:22:46Z] [network] Last Server activity was 11.743562 seconds ago
+[2017-11-02T08:22:46Z] [network] --> Send PING
+[2017-11-02T08:22:46Z] [network] <-- Received PONG
+[2017-11-02T08:22:58Z] [network] Last PING was 12.007629 seconds ago
+[2017-11-02T08:22:58Z] [network] Last Server activity was 11.772260 seconds ago
+[2017-11-02T08:22:58Z] [network] --> Send PING
+[2017-11-02T08:22:58Z] [network] <-- Received PONG
+[2017-11-02T08:23:10Z] [network] Last PING was 12.011509 seconds ago
+[2017-11-02T08:23:10Z] [network] Last Server activity was 11.804809 seconds ago
+[2017-11-02T08:23:10Z] [network] --> Send PING
+[2017-11-02T08:23:10Z] [network] <-- Received PONG
+[2017-11-02T08:23:22Z] [network] Last PING was 11.950495 seconds ago
+[2017-11-02T08:23:22Z] [network] Last Server activity was 11.778863 seconds ago
+[2017-11-02T08:23:22Z] [network] --> Send PING
+[2017-11-02T08:23:22Z] [network] <-- Received PONG
+[2017-11-02T08:23:34Z] [network] Last PING was 12.046421 seconds ago
+[2017-11-02T08:23:34Z] [network] Last Server activity was 11.844285 seconds ago
+[2017-11-02T08:23:34Z] [network] --> Send PING
+[2017-11-02T08:23:34Z] [network] <-- Received PONG
+[2017-11-02T08:23:46Z] [network] Last PING was 12.002729 seconds ago
+[2017-11-02T08:23:46Z] [network] Last Server activity was 11.764659 seconds ago
+[2017-11-02T08:23:46Z] [network] --> Send PING
+[2017-11-02T08:23:46Z] [network] <-- Received PONG
+[2017-11-02T08:23:58Z] [network] Last PING was 11.987254 seconds ago
+[2017-11-02T08:23:58Z] [network] Last Server activity was 11.775367 seconds ago
+[2017-11-02T08:23:58Z] [network] --> Send PING
+[2017-11-02T08:23:58Z] [network] <-- Received PONG
+[2017-11-02T08:24:10Z] [network] Last PING was 12.000250 seconds ago
+[2017-11-02T08:24:10Z] [network] Last Server activity was 11.796017 seconds ago
+[2017-11-02T08:24:10Z] [network] --> Send PING
+[2017-11-02T08:24:10Z] [network] <-- Received PONG
+[2017-11-02T08:24:22Z] [network] Last PING was 12.007399 seconds ago
+[2017-11-02T08:24:22Z] [network] Last Server activity was 11.827124 seconds ago
+[2017-11-02T08:24:22Z] [network] --> Send PING
+[2017-11-02T08:24:22Z] [network] <-- Received PONG
+[2017-11-02T08:24:34Z] [network] Last PING was 11.981309 seconds ago
+[2017-11-02T08:24:34Z] [network] Last Server activity was 11.829638 seconds ago
+[2017-11-02T08:24:34Z] [network] --> Send PING
+[2017-11-02T08:24:34Z] [network] <-- Received PONG
+[2017-11-02T08:24:46Z] [network] Last PING was 11.942617 seconds ago
+[2017-11-02T08:24:46Z] [network] Last Server activity was 11.686041 seconds ago
+[2017-11-02T08:24:46Z] [network] --> Send PING
+[2017-11-02T08:24:46Z] [network] <-- Received PONG
+[2017-11-02T08:24:58Z] [network] Last PING was 12.070002 seconds ago
+[2017-11-02T08:24:58Z] [network] Last Server activity was 11.883092 seconds ago
+[2017-11-02T08:24:58Z] [network] --> Send PING
+[2017-11-02T08:24:58Z] [network] <-- Received PONG
+[2017-11-02T08:25:10Z] [network] Last PING was 11.956501 seconds ago
+[2017-11-02T08:25:10Z] [network] Last Server activity was 11.753902 seconds ago
+[2017-11-02T08:25:10Z] [network] --> Send PING
+[2017-11-02T08:25:10Z] [network] <-- Received PONG
+[2017-11-02T08:25:22Z] [network] Last PING was 11.975084 seconds ago
+[2017-11-02T08:25:22Z] [network] Last Server activity was 11.750108 seconds ago
+[2017-11-02T08:25:22Z] [network] --> Send PING
+[2017-11-02T08:25:22Z] [network] <-- Received PONG
+[2017-11-02T08:25:34Z] [network] Last PING was 12.034329 seconds ago
+[2017-11-02T08:25:34Z] [network] Last Server activity was 11.807489 seconds ago
+[2017-11-02T08:25:34Z] [network] --> Send PING
+[2017-11-02T08:25:34Z] [network] <-- Received PONG
+[2017-11-02T08:25:46Z] [network] Last PING was 11.977174 seconds ago
+[2017-11-02T08:25:46Z] [network] Last Server activity was 11.803112 seconds ago
+[2017-11-02T08:25:46Z] [network] --> Send PING
+[2017-11-02T08:25:46Z] [network] <-- Received PONG
+[2017-11-02T08:25:58Z] [network] Last PING was 12.047235 seconds ago
+[2017-11-02T08:25:58Z] [network] Last Server activity was 11.870669 seconds ago
+[2017-11-02T08:25:58Z] [network] --> Send PING
+[2017-11-02T08:25:58Z] [network] <-- Received PONG
+[2017-11-02T08:26:10Z] [network] Last PING was 12.002918 seconds ago
+[2017-11-02T08:26:10Z] [network] Last Server activity was 11.794727 seconds ago
+[2017-11-02T08:26:10Z] [network] --> Send PING
+[2017-11-02T08:26:10Z] [network] <-- Received PONG
+[2017-11-02T08:26:22Z] [network] Last PING was 11.960106 seconds ago
+[2017-11-02T08:26:22Z] [network] Last Server activity was 11.772861 seconds ago
+[2017-11-02T08:26:22Z] [network] --> Send PING
+[2017-11-02T08:26:22Z] [network] <-- Received PONG
+[2017-11-02T08:26:34Z] [network] Last PING was 12.006693 seconds ago
+[2017-11-02T08:26:34Z] [network] Last Server activity was 11.866131 seconds ago
+[2017-11-02T08:26:34Z] [network] --> Send PING
+[2017-11-02T08:26:34Z] [network] <-- Received PONG
+[2017-11-02T08:26:46Z] [network] Last PING was 11.963404 seconds ago
+[2017-11-02T08:26:46Z] [network] Last Server activity was 11.787596 seconds ago
+[2017-11-02T08:26:46Z] [network] --> Send PING
+[2017-11-02T08:26:46Z] [network] <-- Received PONG
+[2017-11-02T08:26:58Z] [network] Last PING was 12.055246 seconds ago
+[2017-11-02T08:26:58Z] [network] Last Server activity was 11.859581 seconds ago
+[2017-11-02T08:26:58Z] [network] --> Send PING
+[2017-11-02T08:26:58Z] [network] <-- Received PONG
+[2017-11-02T08:27:10Z] [network] Last PING was 11.979232 seconds ago
+[2017-11-02T08:27:10Z] [network] Last Server activity was 11.759858 seconds ago
+[2017-11-02T08:27:10Z] [network] --> Send PING
+[2017-11-02T08:27:10Z] [network] <-- Received PONG
+[2017-11-02T08:27:22Z] [network] Last PING was 11.961276 seconds ago
+[2017-11-02T08:27:22Z] [network] Last Server activity was 11.742223 seconds ago
+[2017-11-02T08:27:22Z] [network] --> Send PING
+[2017-11-02T08:27:22Z] [network] <-- Received PONG
+[2017-11-02T08:27:34Z] [network] Last PING was 12.052110 seconds ago
+[2017-11-02T08:27:34Z] [network] Last Server activity was 11.813103 seconds ago
+[2017-11-02T08:27:34Z] [network] --> Send PING
+[2017-11-02T08:27:34Z] [network] <-- Received PONG
+[2017-11-02T08:27:46Z] [network] Last PING was 11.966013 seconds ago
+[2017-11-02T08:27:46Z] [network] Last Server activity was 11.800735 seconds ago
+[2017-11-02T08:27:46Z] [network] --> Send PING
+[2017-11-02T08:27:46Z] [network] <-- Received PONG
+[2017-11-02T08:27:58Z] [network] Last PING was 12.022425 seconds ago
+[2017-11-02T08:27:58Z] [network] Last Server activity was 11.843965 seconds ago
+[2017-11-02T08:27:58Z] [network] --> Send PING
+[2017-11-02T08:27:58Z] [network] <-- Received PONG
+[2017-11-02T08:28:10Z] [network] Last PING was 11.972473 seconds ago
+[2017-11-02T08:28:10Z] [network] Last Server activity was 11.734515 seconds ago
+[2017-11-02T08:28:10Z] [network] --> Send PING
+[2017-11-02T08:28:10Z] [network] <-- Received PONG
+[2017-11-02T08:28:22Z] [network] Last PING was 11.981960 seconds ago
+[2017-11-02T08:28:22Z] [network] Last Server activity was 11.733924 seconds ago
+[2017-11-02T08:28:22Z] [network] --> Send PING
+[2017-11-02T08:28:22Z] [network] <-- Received PONG
+[2017-11-02T08:28:34Z] [network] Last PING was 12.003676 seconds ago
+[2017-11-02T08:28:34Z] [network] Last Server activity was 11.763607 seconds ago
+[2017-11-02T08:28:34Z] [network] --> Send PING
+[2017-11-02T08:28:34Z] [network] <-- Received PONG
+[2017-11-02T08:28:46Z] [network] Last PING was 12.048544 seconds ago
+[2017-11-02T08:28:46Z] [network] Last Server activity was 11.831442 seconds ago
+[2017-11-02T08:28:46Z] [network] --> Send PING
+[2017-11-02T08:28:46Z] [network] <-- Received PONG
+[2017-11-02T08:28:58Z] [network] Last PING was 11.990573 seconds ago
+[2017-11-02T08:28:58Z] [network] Last Server activity was 11.741569 seconds ago
+[2017-11-02T08:28:58Z] [network] --> Send PING
+[2017-11-02T08:28:58Z] [network] <-- Received PONG
+[2017-11-02T08:29:10Z] [network] Last PING was 11.968314 seconds ago
+[2017-11-02T08:29:10Z] [network] Last Server activity was 11.729894 seconds ago
+[2017-11-02T08:29:10Z] [network] --> Send PING
+[2017-11-02T08:29:10Z] [network] <-- Received PONG
+[2017-11-02T08:29:22Z] [network] Last PING was 12.026349 seconds ago
+[2017-11-02T08:29:22Z] [network] Last Server activity was 11.779129 seconds ago
+[2017-11-02T08:29:22Z] [network] --> Send PING
+[2017-11-02T08:29:22Z] [network] <-- Received PONG
+[2017-11-02T08:29:34Z] [network] Last PING was 11.948882 seconds ago
+[2017-11-02T08:29:34Z] [network] Last Server activity was 11.747490 seconds ago
+[2017-11-02T08:29:34Z] [network] --> Send PING
+[2017-11-02T08:29:34Z] [network] <-- Received PONG
+[2017-11-02T08:29:46Z] [network] Last PING was 12.047342 seconds ago
+[2017-11-02T08:29:46Z] [network] Last Server activity was 11.814999 seconds ago
+[2017-11-02T08:29:46Z] [network] --> Send PING
+[2017-11-02T08:29:46Z] [network] <-- Received PONG
+[2017-11-02T08:29:58Z] [network] Last PING was 11.997583 seconds ago
+[2017-11-02T08:29:58Z] [network] Last Server activity was 11.836929 seconds ago
+[2017-11-02T08:29:58Z] [network] --> Send PING
+[2017-11-02T08:29:58Z] [network] <-- Received PONG
+[2017-11-02T08:30:10Z] [network] Last PING was 11.995827 seconds ago
+[2017-11-02T08:30:10Z] [network] Last Server activity was 11.749466 seconds ago
+[2017-11-02T08:30:10Z] [network] --> Send PING
+[2017-11-02T08:30:10Z] [network] <-- Received PONG
+[2017-11-02T08:30:22Z] [network] Last PING was 11.998683 seconds ago
+[2017-11-02T08:30:22Z] [network] Last Server activity was 11.767374 seconds ago
+[2017-11-02T08:30:22Z] [network] --> Send PING
+[2017-11-02T08:30:22Z] [network] <-- Received PONG
+[2017-11-02T08:30:34Z] [network] Last PING was 11.999050 seconds ago
+[2017-11-02T08:30:34Z] [network] Last Server activity was 11.788081 seconds ago
+[2017-11-02T08:30:34Z] [network] --> Send PING
+[2017-11-02T08:30:34Z] [network] <-- Received PONG
+[2017-11-02T08:30:46Z] [network] Last PING was 11.997721 seconds ago
+[2017-11-02T08:30:46Z] [network] Last Server activity was 11.804531 seconds ago
+[2017-11-02T08:30:46Z] [network] --> Send PING
+[2017-11-02T08:30:46Z] [network] <-- Received PONG
+[2017-11-02T08:30:58Z] [network] Last PING was 11.937118 seconds ago
+[2017-11-02T08:30:58Z] [network] Last Server activity was 11.765122 seconds ago
+[2017-11-02T08:30:58Z] [network] --> Send PING
+[2017-11-02T08:30:58Z] [network] <-- Received PONG
+[2017-11-02T08:31:10Z] [network] Last PING was 12.036570 seconds ago
+[2017-11-02T08:31:10Z] [network] Last Server activity was 11.823052 seconds ago
+[2017-11-02T08:31:10Z] [network] --> Send PING
+[2017-11-02T08:31:10Z] [network] <-- Received PONG
+[2017-11-02T08:31:22Z] [network] Last PING was 12.021429 seconds ago
+[2017-11-02T08:31:22Z] [network] Last Server activity was 11.865028 seconds ago
+[2017-11-02T08:31:22Z] [network] --> Send PING
+[2017-11-02T08:31:22Z] [network] <-- Received PONG
+[2017-11-02T08:31:34Z] [network] Last PING was 11.973465 seconds ago
+[2017-11-02T08:31:34Z] [network] Last Server activity was 11.757080 seconds ago
+[2017-11-02T08:31:34Z] [network] --> Send PING
+[2017-11-02T08:31:34Z] [network] <-- Received PONG
+[2017-11-02T08:31:46Z] [network] Last PING was 12.009414 seconds ago
+[2017-11-02T08:31:46Z] [network] Last Server activity was 11.786773 seconds ago
+[2017-11-02T08:31:46Z] [network] --> Send PING
+[2017-11-02T08:31:46Z] [network] <-- Received PONG
+[2017-11-02T08:31:58Z] [network] Last PING was 12.009608 seconds ago
+[2017-11-02T08:31:58Z] [network] Last Server activity was 11.817092 seconds ago
+[2017-11-02T08:31:58Z] [network] --> Send PING
+[2017-11-02T08:31:58Z] [network] <-- Received PONG
+[2017-11-02T08:32:10Z] [network] Last PING was 12.011138 seconds ago
+[2017-11-02T08:32:10Z] [network] Last Server activity was 11.845678 seconds ago
+[2017-11-02T08:32:10Z] [network] --> Send PING
+[2017-11-02T08:32:10Z] [network] <-- Received PONG
+[2017-11-02T08:32:22Z] [network] Last PING was 11.999139 seconds ago
+[2017-11-02T08:32:22Z] [network] Last Server activity was 11.766443 seconds ago
+[2017-11-02T08:32:22Z] [network] --> Send PING
+[2017-11-02T08:32:22Z] [network] <-- Received PONG
+[2017-11-02T08:32:34Z] [network] Last PING was 11.932222 seconds ago
+[2017-11-02T08:32:34Z] [network] Last Server activity was 11.716720 seconds ago
+[2017-11-02T08:32:34Z] [network] --> Send PING
+[2017-11-02T08:32:34Z] [network] <-- Received PONG
+[2017-11-02T08:32:46Z] [network] Last PING was 12.025560 seconds ago
+[2017-11-02T08:32:46Z] [network] Last Server activity was 11.867686 seconds ago
+[2017-11-02T08:32:46Z] [network] --> Send PING
+[2017-11-02T08:32:46Z] [network] <-- Received PONG
+[2017-11-02T08:32:58Z] [network] Last PING was 12.010921 seconds ago
+[2017-11-02T08:32:58Z] [network] Last Server activity was 11.797920 seconds ago
+[2017-11-02T08:32:58Z] [network] --> Send PING
+[2017-11-02T08:32:58Z] [network] <-- Received PONG
+[2017-11-02T08:33:10Z] [network] Last PING was 12.009415 seconds ago
+[2017-11-02T08:33:10Z] [network] Last Server activity was 11.825071 seconds ago
+[2017-11-02T08:33:10Z] [network] --> Send PING
+[2017-11-02T08:33:10Z] [network] <-- Received PONG
+[2017-11-02T08:33:22Z] [network] Last PING was 11.997829 seconds ago
+[2017-11-02T08:33:22Z] [network] Last Server activity was 11.846207 seconds ago
+[2017-11-02T08:33:22Z] [network] --> Send PING
+[2017-11-02T08:33:22Z] [network] <-- Received PONG
+[2017-11-02T08:33:34Z] [network] Last PING was 11.998004 seconds ago
+[2017-11-02T08:33:34Z] [network] Last Server activity was 11.761663 seconds ago
+[2017-11-02T08:33:34Z] [network] --> Send PING
+[2017-11-02T08:33:34Z] [network] <-- Received PONG
+[2017-11-02T08:33:46Z] [network] Last PING was 11.998047 seconds ago
+[2017-11-02T08:33:46Z] [network] Last Server activity was 11.779701 seconds ago
+[2017-11-02T08:33:46Z] [network] --> Send PING
+[2017-11-02T08:33:46Z] [network] <-- Received PONG
+[2017-11-02T08:33:58Z] [network] Last PING was 12.013680 seconds ago
+[2017-11-02T08:33:58Z] [network] Last Server activity was 11.812252 seconds ago
+[2017-11-02T08:33:58Z] [network] --> Send PING
+[2017-11-02T08:33:58Z] [network] <-- Received PONG
+[2017-11-02T08:34:10Z] [network] Last PING was 11.949213 seconds ago
+[2017-11-02T08:34:10Z] [network] Last Server activity was 11.785533 seconds ago
+[2017-11-02T08:34:10Z] [network] --> Send PING
+[2017-11-02T08:34:10Z] [network] <-- Received PONG
+[2017-11-02T08:34:22Z] [network] Last PING was 12.018427 seconds ago
+[2017-11-02T08:34:22Z] [network] Last Server activity was 11.821803 seconds ago
+[2017-11-02T08:34:22Z] [network] --> Send PING
+[2017-11-02T08:34:22Z] [network] <-- Received PONG
+[2017-11-02T08:34:34Z] [network] Last PING was 12.018877 seconds ago
+[2017-11-02T08:34:34Z] [network] Last Server activity was 11.863826 seconds ago
+[2017-11-02T08:34:34Z] [network] --> Send PING
+[2017-11-02T08:34:34Z] [network] <-- Received PONG
+[2017-11-02T08:34:46Z] [network] Last PING was 12.000016 seconds ago
+[2017-11-02T08:34:46Z] [network] Last Server activity was 11.778432 seconds ago
+[2017-11-02T08:34:46Z] [network] --> Send PING
+[2017-11-02T08:34:46Z] [network] <-- Received PONG
+[2017-11-02T08:34:58Z] [network] Last PING was 12.002234 seconds ago
+[2017-11-02T08:34:58Z] [network] Last Server activity was 11.802841 seconds ago
+[2017-11-02T08:34:58Z] [network] --> Send PING
+[2017-11-02T08:34:58Z] [network] <-- Received PONG
+[2017-11-02T08:35:10Z] [network] Last PING was 11.949577 seconds ago
+[2017-11-02T08:35:10Z] [network] Last Server activity was 11.775145 seconds ago
+[2017-11-02T08:35:10Z] [network] --> Send PING
+[2017-11-02T08:35:10Z] [network] <-- Received PONG
+[2017-11-02T08:35:22Z] [network] Last PING was 11.992782 seconds ago
+[2017-11-02T08:35:22Z] [network] Last Server activity was 11.786138 seconds ago
+[2017-11-02T08:35:22Z] [network] --> Send PING
+[2017-11-02T08:35:22Z] [network] <-- Received PONG
+[2017-11-02T08:35:34Z] [network] Last PING was 11.986907 seconds ago
+[2017-11-02T08:35:34Z] [network] Last Server activity was 11.795519 seconds ago
+[2017-11-02T08:35:34Z] [network] --> Send PING
+[2017-11-02T08:35:34Z] [network] <-- Received PONG
+[2017-11-02T08:35:46Z] [network] Last PING was 12.014297 seconds ago
+[2017-11-02T08:35:46Z] [network] Last Server activity was 11.829879 seconds ago
+[2017-11-02T08:35:46Z] [network] --> Send PING
+[2017-11-02T08:35:46Z] [network] <-- Received PONG
+[2017-11-02T08:35:58Z] [network] Last PING was 12.047806 seconds ago
+[2017-11-02T08:35:58Z] [network] Last Server activity was 11.900284 seconds ago
+[2017-11-02T08:35:58Z] [network] --> Send PING
+[2017-11-02T08:35:58Z] [network] <-- Received PONG
+[2017-11-02T08:36:10Z] [network] Last PING was 11.991664 seconds ago
+[2017-11-02T08:36:10Z] [network] Last Server activity was 11.809758 seconds ago
+[2017-11-02T08:36:10Z] [network] --> Send PING
+[2017-11-02T08:36:10Z] [network] <-- Received PONG
+[2017-11-02T08:36:22Z] [network] Last PING was 11.990654 seconds ago
+[2017-11-02T08:36:22Z] [network] Last Server activity was 11.819385 seconds ago
+[2017-11-02T08:36:22Z] [network] --> Send PING
+[2017-11-02T08:36:22Z] [network] <-- Received PONG
+[2017-11-02T08:36:34Z] [network] Last PING was 12.010877 seconds ago
+[2017-11-02T08:36:34Z] [network] Last Server activity was 11.854128 seconds ago
+[2017-11-02T08:36:34Z] [network] --> Send PING
+[2017-11-02T08:36:34Z] [network] <-- Received PONG
+[2017-11-02T08:36:46Z] [network] Last PING was 11.938269 seconds ago
+[2017-11-02T08:36:46Z] [network] Last Server activity was 11.710903 seconds ago
+[2017-11-02T08:36:46Z] [network] --> Send PING
+[2017-11-02T08:36:46Z] [network] <-- Received PONG
+[2017-11-02T08:36:58Z] [network] Last PING was 12.047608 seconds ago
+[2017-11-02T08:36:58Z] [network] Last Server activity was 11.879819 seconds ago
+[2017-11-02T08:36:58Z] [network] --> Send PING
+[2017-11-02T08:36:58Z] [network] <-- Received PONG
+[2017-11-02T08:37:10Z] [network] Last PING was 11.949334 seconds ago
+[2017-11-02T08:37:10Z] [network] Last Server activity was 11.747387 seconds ago
+[2017-11-02T08:37:10Z] [network] --> Send PING
+[2017-11-02T08:37:10Z] [network] <-- Received PONG
+[2017-11-02T08:37:22Z] [network] Last PING was 12.009090 seconds ago
+[2017-11-02T08:37:22Z] [network] Last Server activity was 11.778047 seconds ago
+[2017-11-02T08:37:22Z] [network] --> Send PING
+[2017-11-02T08:37:22Z] [network] <-- Received PONG
+[2017-11-02T08:37:34Z] [network] Last PING was 12.016661 seconds ago
+[2017-11-02T08:37:34Z] [network] Last Server activity was 11.882145 seconds ago
+[2017-11-02T08:37:34Z] [network] --> Send PING
+[2017-11-02T08:37:34Z] [network] <-- Received PONG
+[2017-11-02T08:37:46Z] [network] Last PING was 11.994514 seconds ago
+[2017-11-02T08:37:46Z] [network] Last Server activity was 11.827305 seconds ago
+[2017-11-02T08:37:46Z] [network] --> Send PING
+[2017-11-02T08:37:46Z] [network] <-- Received PONG
+[2017-11-02T08:37:58Z] [network] Last PING was 12.013478 seconds ago
+[2017-11-02T08:37:58Z] [network] Last Server activity was 11.759579 seconds ago
+[2017-11-02T08:37:58Z] [network] --> Send PING
+[2017-11-02T08:37:58Z] [network] <-- Received PONG
+[2017-11-02T08:38:10Z] [network] Last PING was 11.996179 seconds ago
+[2017-11-02T08:38:10Z] [network] Last Server activity was 11.774135 seconds ago
+[2017-11-02T08:38:10Z] [network] --> Send PING
+[2017-11-02T08:38:10Z] [network] <-- Received PONG
+[2017-11-02T08:38:22Z] [network] Last PING was 11.977063 seconds ago
+[2017-11-02T08:38:22Z] [network] Last Server activity was 11.774763 seconds ago
+[2017-11-02T08:38:22Z] [network] --> Send PING
+[2017-11-02T08:38:22Z] [network] <-- Received PONG
+[2017-11-02T08:38:34Z] [network] Last PING was 12.018360 seconds ago
+[2017-11-02T08:38:34Z] [network] Last Server activity was 11.812472 seconds ago
+[2017-11-02T08:38:34Z] [network] --> Send PING
+[2017-11-02T08:38:34Z] [network] <-- Received PONG
+[2017-11-02T08:38:46Z] [network] Last PING was 11.999574 seconds ago
+[2017-11-02T08:38:46Z] [network] Last Server activity was 11.834720 seconds ago
+[2017-11-02T08:38:46Z] [network] --> Send PING
+[2017-11-02T08:38:46Z] [network] <-- Received PONG
+[2017-11-02T08:38:58Z] [network] Last PING was 12.009960 seconds ago
+[2017-11-02T08:38:58Z] [network] Last Server activity was 11.761843 seconds ago
+[2017-11-02T08:38:58Z] [network] --> Send PING
+[2017-11-02T08:38:58Z] [network] <-- Received PONG
+[2017-11-02T08:39:10Z] [network] Last PING was 12.011709 seconds ago
+[2017-11-02T08:39:10Z] [network] Last Server activity was 11.790107 seconds ago
+[2017-11-02T08:39:10Z] [network] --> Send PING
+[2017-11-02T08:39:10Z] [network] <-- Received PONG
+[2017-11-02T08:39:22Z] [network] Last PING was 11.959874 seconds ago
+[2017-11-02T08:39:22Z] [network] Last Server activity was 11.774512 seconds ago
+[2017-11-02T08:39:22Z] [network] --> Send PING
+[2017-11-02T08:39:22Z] [network] <-- Received PONG
+[2017-11-02T08:39:34Z] [network] Last PING was 11.972536 seconds ago
+[2017-11-02T08:39:34Z] [network] Last Server activity was 11.763813 seconds ago
+[2017-11-02T08:39:34Z] [network] --> Send PING
+[2017-11-02T08:39:34Z] [network] <-- Received PONG
+[2017-11-02T08:39:46Z] [network] Last PING was 12.006484 seconds ago
+[2017-11-02T08:39:46Z] [network] Last Server activity was 11.794286 seconds ago
+[2017-11-02T08:39:46Z] [network] --> Send PING
+[2017-11-02T08:39:46Z] [network] <-- Received PONG
+[2017-11-02T08:39:58Z] [network] Last PING was 12.045865 seconds ago
+[2017-11-02T08:39:58Z] [network] Last Server activity was 11.857157 seconds ago
+[2017-11-02T08:39:58Z] [network] --> Send PING
+[2017-11-02T08:39:58Z] [network] <-- Received PONG
+[2017-11-02T08:40:10Z] [network] Last PING was 11.985183 seconds ago
+[2017-11-02T08:40:10Z] [network] Last Server activity was 11.761767 seconds ago
+[2017-11-02T08:40:10Z] [network] --> Send PING
+[2017-11-02T08:40:10Z] [network] <-- Received PONG
+[2017-11-02T08:40:22Z] [network] Last PING was 12.023145 seconds ago
+[2017-11-02T08:40:22Z] [network] Last Server activity was 11.804551 seconds ago
+[2017-11-02T08:40:22Z] [network] --> Send PING
+[2017-11-02T08:40:22Z] [network] <-- Received PONG
+[2017-11-02T08:40:34Z] [network] Last PING was 11.948660 seconds ago
+[2017-11-02T08:40:34Z] [network] Last Server activity was 11.770895 seconds ago
+[2017-11-02T08:40:34Z] [network] --> Send PING
+[2017-11-02T08:40:34Z] [network] <-- Received PONG
+[2017-11-02T08:40:46Z] [network] Last PING was 12.047599 seconds ago
+[2017-11-02T08:40:46Z] [network] Last Server activity was 11.840757 seconds ago
+[2017-11-02T08:40:46Z] [network] --> Send PING
+[2017-11-02T08:40:46Z] [network] <-- Received PONG
+[2017-11-02T08:40:58Z] [network] Last PING was 11.972534 seconds ago
+[2017-11-02T08:40:58Z] [network] Last Server activity was 11.731877 seconds ago
+[2017-11-02T08:40:58Z] [network] --> Send PING
+[2017-11-02T08:40:58Z] [network] <-- Received PONG
+[2017-11-02T08:41:10Z] [network] Last PING was 12.024096 seconds ago
+[2017-11-02T08:41:10Z] [network] Last Server activity was 11.772599 seconds ago
+[2017-11-02T08:41:10Z] [network] --> Send PING
+[2017-11-02T08:41:10Z] [network] <-- Received PONG
+[2017-11-02T08:41:22Z] [network] Last PING was 11.997734 seconds ago
+[2017-11-02T08:41:22Z] [network] Last Server activity was 11.861699 seconds ago
+[2017-11-02T08:41:22Z] [network] --> Send PING
+[2017-11-02T08:41:22Z] [network] <-- Received PONG
+[2017-11-02T08:41:34Z] [network] Last PING was 11.962135 seconds ago
+[2017-11-02T08:41:34Z] [network] Last Server activity was 11.772310 seconds ago
+[2017-11-02T08:41:34Z] [network] --> Send PING
+[2017-11-02T08:41:34Z] [network] <-- Received PONG
+[2017-11-02T08:41:46Z] [network] Last PING was 12.033934 seconds ago
+[2017-11-02T08:41:46Z] [network] Last Server activity was 11.828725 seconds ago
+[2017-11-02T08:41:46Z] [network] --> Send PING
+[2017-11-02T08:41:46Z] [network] <-- Received PONG
+[2017-11-02T08:41:58Z] [network] Last PING was 11.968247 seconds ago
+[2017-11-02T08:41:58Z] [network] Last Server activity was 11.815334 seconds ago
+[2017-11-02T08:41:58Z] [network] --> Send PING
+[2017-11-02T08:41:58Z] [network] <-- Received PONG
+[2017-11-02T08:42:10Z] [network] Last PING was 12.010731 seconds ago
+[2017-11-02T08:42:10Z] [network] Last Server activity was 11.850689 seconds ago
+[2017-11-02T08:42:10Z] [network] --> Send PING
+[2017-11-02T08:42:10Z] [network] <-- Received PONG
+[2017-11-02T08:42:22Z] [network] Last PING was 11.997219 seconds ago
+[2017-11-02T08:42:22Z] [network] Last Server activity was 11.764526 seconds ago
+[2017-11-02T08:42:22Z] [network] --> Send PING
+[2017-11-02T08:42:22Z] [network] <-- Received PONG
+[2017-11-02T08:42:34Z] [network] Last PING was 12.014845 seconds ago
+[2017-11-02T08:42:34Z] [network] Last Server activity was 11.800474 seconds ago
+[2017-11-02T08:42:34Z] [network] --> Send PING
+[2017-11-02T08:42:34Z] [network] <-- Received PONG
+[2017-11-02T08:42:46Z] [network] Last PING was 11.993368 seconds ago
+[2017-11-02T08:42:46Z] [network] Last Server activity was 11.811478 seconds ago
+[2017-11-02T08:42:46Z] [network] --> Send PING
+[2017-11-02T08:42:46Z] [network] <-- Received PONG
+[2017-11-02T08:42:58Z] [network] Last PING was 11.967318 seconds ago
+[2017-11-02T08:42:58Z] [network] Last Server activity was 11.788397 seconds ago
+[2017-11-02T08:42:58Z] [network] --> Send PING
+[2017-11-02T08:42:58Z] [network] <-- Received PONG
+[2017-11-02T08:43:10Z] [network] Last PING was 11.976770 seconds ago
+[2017-11-02T08:43:10Z] [network] Last Server activity was 11.795479 seconds ago
+[2017-11-02T08:43:10Z] [network] --> Send PING
+[2017-11-02T08:43:10Z] [network] <-- Received PONG
+[2017-11-02T08:43:22Z] [network] Last PING was 11.996064 seconds ago
+[2017-11-02T08:43:22Z] [network] Last Server activity was 11.810880 seconds ago
+[2017-11-02T08:43:22Z] [network] --> Send PING
+[2017-11-02T08:43:22Z] [network] <-- Received PONG
+[2017-11-02T08:43:34Z] [network] Last PING was 12.058169 seconds ago
+[2017-11-02T08:43:34Z] [network] Last Server activity was 11.891002 seconds ago
+[2017-11-02T08:43:34Z] [network] --> Send PING
+[2017-11-02T08:43:34Z] [network] <-- Received PONG
+[2017-11-02T08:43:46Z] [network] Last PING was 11.939155 seconds ago
+[2017-11-02T08:43:46Z] [network] Last Server activity was 11.747298 seconds ago
+[2017-11-02T08:43:46Z] [network] --> Send PING
+[2017-11-02T08:43:46Z] [network] <-- Received PONG
+[2017-11-02T08:43:58Z] [network] Last PING was 12.019037 seconds ago
+[2017-11-02T08:43:58Z] [network] Last Server activity was 11.785532 seconds ago
+[2017-11-02T08:43:58Z] [network] --> Send PING
+[2017-11-02T08:43:58Z] [network] <-- Received PONG
+[2017-11-02T08:44:10Z] [network] Last PING was 12.052349 seconds ago
+[2017-11-02T08:44:10Z] [network] Last Server activity was 11.858911 seconds ago
+[2017-11-02T08:44:10Z] [network] --> Send PING
+[2017-11-02T08:44:10Z] [network] <-- Received PONG
+[2017-11-02T08:44:22Z] [network] Last PING was 11.990461 seconds ago
+[2017-11-02T08:44:22Z] [network] Last Server activity was 11.763716 seconds ago
+[2017-11-02T08:44:22Z] [network] --> Send PING
+[2017-11-02T08:44:22Z] [network] <-- Received PONG
+[2017-11-02T08:44:34Z] [network] Last PING was 11.962964 seconds ago
+[2017-11-02T08:44:34Z] [network] Last Server activity was 11.749094 seconds ago
+[2017-11-02T08:44:34Z] [network] --> Send PING
+[2017-11-02T08:44:34Z] [network] <-- Received PONG
+[2017-11-02T08:44:46Z] [network] Last PING was 11.982423 seconds ago
+[2017-11-02T08:44:46Z] [network] Last Server activity was 11.753337 seconds ago
+[2017-11-02T08:44:46Z] [network] --> Send PING
+[2017-11-02T08:44:46Z] [network] <-- Received PONG
+[2017-11-02T08:44:58Z] [network] Last PING was 12.047903 seconds ago
+[2017-11-02T08:44:58Z] [network] Last Server activity was 11.720580 seconds ago
+[2017-11-02T08:44:58Z] [network] --> Send PING
+[2017-11-02T08:44:58Z] [network] <-- Received PONG
+[2017-11-02T08:45:10Z] [network] Last PING was 12.001453 seconds ago
+[2017-11-02T08:45:10Z] [network] Last Server activity was 11.742205 seconds ago
+[2017-11-02T08:45:10Z] [network] --> Send PING
+[2017-11-02T08:45:10Z] [network] <-- Received PONG
+[2017-11-02T08:45:22Z] [network] Last PING was 11.965004 seconds ago
+[2017-11-02T08:45:22Z] [network] Last Server activity was 11.719573 seconds ago
+[2017-11-02T08:45:22Z] [network] --> Send PING
+[2017-11-02T08:45:22Z] [network] <-- Received PONG
+[2017-11-02T08:45:34Z] [network] Last PING was 12.035682 seconds ago
+[2017-11-02T08:45:34Z] [network] Last Server activity was 11.881625 seconds ago
+[2017-11-02T08:45:34Z] [network] --> Send PING
+[2017-11-02T08:45:34Z] [network] <-- Received PONG
+[2017-11-02T08:45:46Z] [network] Last PING was 11.998051 seconds ago
+[2017-11-02T08:45:46Z] [network] Last Server activity was 11.799339 seconds ago
+[2017-11-02T08:45:46Z] [network] --> Send PING
+[2017-11-02T08:45:46Z] [network] <-- Received PONG
+[2017-11-02T08:45:58Z] [network] Last PING was 11.941230 seconds ago
+[2017-11-02T08:45:58Z] [network] Last Server activity was 11.762115 seconds ago
+[2017-11-02T08:45:58Z] [network] --> Send PING
+[2017-11-02T08:45:58Z] [network] <-- Received PONG
+[2017-11-02T08:46:10Z] [network] Last PING was 12.058501 seconds ago
+[2017-11-02T08:46:10Z] [network] Last Server activity was 11.837602 seconds ago
+[2017-11-02T08:46:10Z] [network] --> Send PING
+[2017-11-02T08:46:10Z] [network] <-- Received PONG
+[2017-11-02T08:46:22Z] [network] Last PING was 11.993012 seconds ago
+[2017-11-02T08:46:22Z] [network] Last Server activity was 11.747593 seconds ago
+[2017-11-02T08:46:22Z] [network] --> Send PING
+[2017-11-02T08:46:22Z] [network] <-- Received PONG
+[2017-11-02T08:46:34Z] [network] Last PING was 11.948786 seconds ago
+[2017-11-02T08:46:34Z] [network] Last Server activity was 11.718938 seconds ago
+[2017-11-02T08:46:34Z] [network] --> Send PING
+[2017-11-02T08:46:34Z] [network] <-- Received PONG
+[2017-11-02T08:46:46Z] [network] Last PING was 11.983140 seconds ago
+[2017-11-02T08:46:46Z] [network] Last Server activity was 11.824420 seconds ago
+[2017-11-02T08:46:46Z] [network] --> Send PING
+[2017-11-02T08:46:46Z] [network] <-- Received PONG
+[2017-11-02T08:46:58Z] [network] Last PING was 12.028908 seconds ago
+[2017-11-02T08:46:58Z] [network] Last Server activity was 11.783227 seconds ago
+[2017-11-02T08:46:58Z] [network] --> Send PING
+[2017-11-02T08:46:58Z] [network] <-- Received PONG
+[2017-11-02T08:47:10Z] [network] Last PING was 12.007394 seconds ago
+[2017-11-02T08:47:10Z] [network] Last Server activity was 11.813787 seconds ago
+[2017-11-02T08:47:10Z] [network] --> Send PING
+[2017-11-02T08:47:10Z] [network] <-- Received PONG
+[2017-11-02T08:47:22Z] [network] Last PING was 11.969318 seconds ago
+[2017-11-02T08:47:22Z] [network] Last Server activity was 11.799313 seconds ago
+[2017-11-02T08:47:22Z] [network] --> Send PING
+[2017-11-02T08:47:22Z] [network] <-- Received PONG
+[2017-11-02T08:47:34Z] [network] Last PING was 12.006937 seconds ago
+[2017-11-02T08:47:34Z] [network] Last Server activity was 11.869397 seconds ago
+[2017-11-02T08:47:34Z] [network] --> Send PING
+[2017-11-02T08:47:34Z] [network] <-- Received PONG
+[2017-11-02T08:47:46Z] [network] Last PING was 12.012611 seconds ago
+[2017-11-02T08:47:46Z] [network] Last Server activity was 11.857363 seconds ago
+[2017-11-02T08:47:46Z] [network] --> Send PING
+[2017-11-02T08:47:46Z] [network] <-- Received PONG
+[2017-11-02T08:47:58Z] [network] Last PING was 12.012287 seconds ago
+[2017-11-02T08:47:58Z] [network] Last Server activity was 11.790626 seconds ago
+[2017-11-02T08:47:58Z] [network] --> Send PING
+[2017-11-02T08:47:58Z] [network] <-- Received PONG
+[2017-11-02T08:48:10Z] [network] Last PING was 12.011393 seconds ago
+[2017-11-02T08:48:10Z] [network] Last Server activity was 11.819741 seconds ago
+[2017-11-02T08:48:10Z] [network] --> Send PING
+[2017-11-02T08:48:10Z] [network] <-- Received PONG
+[2017-11-02T08:48:22Z] [network] Last PING was 11.985488 seconds ago
+[2017-11-02T08:48:22Z] [network] Last Server activity was 11.826606 seconds ago
+[2017-11-02T08:48:22Z] [network] --> Send PING
+[2017-11-02T08:48:22Z] [network] <-- Received PONG
+[2017-11-02T08:48:34Z] [network] Last PING was 11.968489 seconds ago
+[2017-11-02T08:48:34Z] [network] Last Server activity was 11.813216 seconds ago
+[2017-11-02T08:48:34Z] [network] --> Send PING
+[2017-11-02T08:48:34Z] [network] <-- Received PONG
+[2017-11-02T08:48:46Z] [network] Last PING was 11.976505 seconds ago
+[2017-11-02T08:48:46Z] [network] Last Server activity was 11.809290 seconds ago
+[2017-11-02T08:48:46Z] [network] --> Send PING
+[2017-11-02T08:48:46Z] [network] <-- Received PONG
+[2017-11-02T08:48:58Z] [network] Last PING was 12.003104 seconds ago
+[2017-11-02T08:48:58Z] [network] Last Server activity was 11.834172 seconds ago
+[2017-11-02T08:48:58Z] [network] --> Send PING
+[2017-11-02T08:48:58Z] [network] <-- Received PONG
+[2017-11-02T08:49:10Z] [network] Last PING was 12.043282 seconds ago
+[2017-11-02T08:49:10Z] [network] Last Server activity was 11.794652 seconds ago
+[2017-11-02T08:49:10Z] [network] --> Send PING
+[2017-11-02T08:49:10Z] [network] <-- Received PONG
+[2017-11-02T08:49:22Z] [network] Last PING was 12.016902 seconds ago
+[2017-11-02T08:49:22Z] [network] Last Server activity was 11.830891 seconds ago
+[2017-11-02T08:49:22Z] [network] --> Send PING
+[2017-11-02T08:49:22Z] [network] <-- Received PONG
+[2017-11-02T08:49:34Z] [network] Last PING was 11.950803 seconds ago
+[2017-11-02T08:49:34Z] [network] Last Server activity was 11.696986 seconds ago
+[2017-11-02T08:49:34Z] [network] --> Send PING
+[2017-11-02T08:49:34Z] [network] <-- Received PONG
+[2017-11-02T08:49:46Z] [network] Last PING was 12.034659 seconds ago
+[2017-11-02T08:49:46Z] [network] Last Server activity was 11.853732 seconds ago
+[2017-11-02T08:49:46Z] [network] --> Send PING
+[2017-11-02T08:49:46Z] [network] <-- Received PONG
+[2017-11-02T08:49:58Z] [network] Last PING was 12.016014 seconds ago
+[2017-11-02T08:49:58Z] [network] Last Server activity was 11.791068 seconds ago
+[2017-11-02T08:49:58Z] [network] --> Send PING
+[2017-11-02T08:49:58Z] [network] <-- Received PONG
+[2017-11-02T08:50:10Z] [network] Last PING was 11.943695 seconds ago
+[2017-11-02T08:50:10Z] [network] Last Server activity was 11.755311 seconds ago
+[2017-11-02T08:50:10Z] [network] --> Send PING
+[2017-11-02T08:50:10Z] [network] <-- Received PONG
+[2017-11-02T08:50:22Z] [network] Last PING was 12.048956 seconds ago
+[2017-11-02T08:50:22Z] [network] Last Server activity was 11.824538 seconds ago
+[2017-11-02T08:50:22Z] [network] --> Send PING
+[2017-11-02T08:50:22Z] [network] <-- Received PONG
+[2017-11-02T08:50:34Z] [network] Last PING was 11.997632 seconds ago
+[2017-11-02T08:50:34Z] [network] Last Server activity was 11.842577 seconds ago
+[2017-11-02T08:50:34Z] [network] --> Send PING
+[2017-11-02T08:50:34Z] [network] <-- Received PONG
+[2017-11-02T08:50:46Z] [network] Last PING was 11.954166 seconds ago
+[2017-11-02T08:50:46Z] [network] Last Server activity was 11.714677 seconds ago
+[2017-11-02T08:50:46Z] [network] --> Send PING
+[2017-11-02T08:50:46Z] [network] <-- Received PONG
+[2017-11-02T08:50:58Z] [network] Last PING was 12.020631 seconds ago
+[2017-11-02T08:50:58Z] [network] Last Server activity was 11.855636 seconds ago
+[2017-11-02T08:50:58Z] [network] --> Send PING
+[2017-11-02T08:50:58Z] [network] <-- Received PONG
+[2017-11-02T08:51:10Z] [network] Last PING was 11.989446 seconds ago
+[2017-11-02T08:51:10Z] [network] Last Server activity was 11.764468 seconds ago
+[2017-11-02T08:51:10Z] [network] --> Send PING
+[2017-11-02T08:51:10Z] [network] <-- Received PONG
+[2017-11-02T08:51:22Z] [network] Last PING was 12.025346 seconds ago
+[2017-11-02T08:51:22Z] [network] Last Server activity was 11.810209 seconds ago
+[2017-11-02T08:51:22Z] [network] --> Send PING
+[2017-11-02T08:51:22Z] [network] <-- Received PONG
+[2017-11-02T08:51:34Z] [network] Last PING was 11.960006 seconds ago
+[2017-11-02T08:51:34Z] [network] Last Server activity was 11.786469 seconds ago
+[2017-11-02T08:51:34Z] [network] --> Send PING
+[2017-11-02T08:51:34Z] [network] <-- Received PONG
+[2017-11-02T08:51:46Z] [network] Last PING was 11.979326 seconds ago
+[2017-11-02T08:51:46Z] [network] Last Server activity was 11.786928 seconds ago
+[2017-11-02T08:51:46Z] [network] --> Send PING
+[2017-11-02T08:51:46Z] [network] <-- Received PONG
+[2017-11-02T08:51:58Z] [network] Last PING was 12.010570 seconds ago
+[2017-11-02T08:51:58Z] [network] Last Server activity was 11.819854 seconds ago
+[2017-11-02T08:51:58Z] [network] --> Send PING
+[2017-11-02T08:51:58Z] [network] <-- Received PONG
+[2017-11-02T08:52:10Z] [network] Last PING was 12.011223 seconds ago
+[2017-11-02T08:52:10Z] [network] Last Server activity was 11.847792 seconds ago
+[2017-11-02T08:52:10Z] [network] --> Send PING
+[2017-11-02T08:52:10Z] [network] <-- Received PONG
+[2017-11-02T08:52:22Z] [network] Last PING was 12.043333 seconds ago
+[2017-11-02T08:52:22Z] [network] Last Server activity was 11.810849 seconds ago
+[2017-11-02T08:52:22Z] [network] --> Send PING
+[2017-11-02T08:52:22Z] [network] <-- Received PONG
+[2017-11-02T08:52:34Z] [network] Last PING was 11.997757 seconds ago
+[2017-11-02T08:52:34Z] [network] Last Server activity was 11.829774 seconds ago
+[2017-11-02T08:52:34Z] [network] --> Send PING
+[2017-11-02T08:52:34Z] [network] <-- Received PONG
+[2017-11-02T08:52:46Z] [network] Last PING was 11.954293 seconds ago
+[2017-11-02T08:52:46Z] [network] Last Server activity was 11.801195 seconds ago
+[2017-11-02T08:52:46Z] [network] --> Send PING
+[2017-11-02T08:52:46Z] [network] <-- Received PONG
+[2017-11-02T08:52:58Z] [network] Last PING was 12.048475 seconds ago
+[2017-11-02T08:52:58Z] [network] Last Server activity was 11.871184 seconds ago
+[2017-11-02T08:52:58Z] [network] --> Send PING
+[2017-11-02T08:52:58Z] [network] <-- Received PONG
+[2017-11-02T08:53:10Z] [network] Last PING was 11.967483 seconds ago
+[2017-11-02T08:53:10Z] [network] Last Server activity was 11.756034 seconds ago
+[2017-11-02T08:53:10Z] [network] --> Send PING
+[2017-11-02T08:53:10Z] [network] <-- Received PONG
+[2017-11-02T08:53:22Z] [network] Last PING was 12.020038 seconds ago
+[2017-11-02T08:53:22Z] [network] Last Server activity was 11.793126 seconds ago
+[2017-11-02T08:53:22Z] [network] --> Send PING
+[2017-11-02T08:53:22Z] [network] <-- Received PONG
+[2017-11-02T08:53:34Z] [network] Last PING was 11.955229 seconds ago
+[2017-11-02T08:53:34Z] [network] Last Server activity was 11.771332 seconds ago
+[2017-11-02T08:53:34Z] [network] --> Send PING
+[2017-11-02T08:53:34Z] [network] <-- Received PONG
+[2017-11-02T08:53:46Z] [network] Last PING was 11.984791 seconds ago
+[2017-11-02T08:53:46Z] [network] Last Server activity was 11.772356 seconds ago
+[2017-11-02T08:53:46Z] [network] --> Send PING
+[2017-11-02T08:53:46Z] [network] <-- Received PONG
+[2017-11-02T08:53:58Z] [network] Last PING was 11.999798 seconds ago
+[2017-11-02T08:53:58Z] [network] Last Server activity was 11.795027 seconds ago
+[2017-11-02T08:53:58Z] [network] --> Send PING
+[2017-11-02T08:53:58Z] [network] <-- Received PONG
+[2017-11-02T08:54:10Z] [network] Last PING was 12.019567 seconds ago
+[2017-11-02T08:54:10Z] [network] Last Server activity was 11.833489 seconds ago
+[2017-11-02T08:54:10Z] [network] --> Send PING
+[2017-11-02T08:54:10Z] [network] <-- Received PONG
+[2017-11-02T08:54:22Z] [network] Last PING was 12.012566 seconds ago
+[2017-11-02T08:54:22Z] [network] Last Server activity was 11.762219 seconds ago
+[2017-11-02T08:54:22Z] [network] --> Send PING
+[2017-11-02T08:54:22Z] [network] <-- Received PONG
+[2017-11-02T08:54:34Z] [network] Last PING was 11.998234 seconds ago
+[2017-11-02T08:54:34Z] [network] Last Server activity was 11.780872 seconds ago
+[2017-11-02T08:54:34Z] [network] --> Send PING
+[2017-11-02T08:54:34Z] [network] <-- Received PONG
+[2017-11-02T08:54:46Z] [network] Last PING was 11.998135 seconds ago
+[2017-11-02T08:54:46Z] [network] Last Server activity was 11.803139 seconds ago
+[2017-11-02T08:54:46Z] [network] --> Send PING
+[2017-11-02T08:54:46Z] [network] <-- Received PONG
+[2017-11-02T08:54:58Z] [network] Last PING was 12.012031 seconds ago
+[2017-11-02T08:54:58Z] [network] Last Server activity was 11.834298 seconds ago
+[2017-11-02T08:54:58Z] [network] --> Send PING
+[2017-11-02T08:54:58Z] [network] <-- Received PONG
+[2017-11-02T08:55:10Z] [network] Last PING was 11.962980 seconds ago
+[2017-11-02T08:55:10Z] [network] Last Server activity was 11.712020 seconds ago
+[2017-11-02T08:55:10Z] [network] --> Send PING
+[2017-11-02T08:55:10Z] [network] <-- Received PONG
+[2017-11-02T08:55:22Z] [network] Last PING was 12.022761 seconds ago
+[2017-11-02T08:55:22Z] [network] Last Server activity was 11.860222 seconds ago
+[2017-11-02T08:55:22Z] [network] --> Send PING
+[2017-11-02T08:55:22Z] [network] <-- Received PONG
+[2017-11-02T08:55:34Z] [network] Last PING was 11.969095 seconds ago
+[2017-11-02T08:55:34Z] [network] Last Server activity was 11.748461 seconds ago
+[2017-11-02T08:55:34Z] [network] --> Send PING
+[2017-11-02T08:55:34Z] [network] <-- Received PONG
+[2017-11-02T08:55:46Z] [network] Last PING was 11.993134 seconds ago
+[2017-11-02T08:55:46Z] [network] Last Server activity was 11.762101 seconds ago
+[2017-11-02T08:55:46Z] [network] --> Send PING
+[2017-11-02T08:55:46Z] [network] <-- Received PONG
+[2017-11-02T08:55:58Z] [network] Last PING was 12.063316 seconds ago
+[2017-11-02T08:55:58Z] [network] Last Server activity was 11.841620 seconds ago
+[2017-11-02T08:55:58Z] [network] --> Send PING
+[2017-11-02T08:55:58Z] [network] <-- Received PONG
+[2017-11-02T08:56:10Z] [network] Last PING was 11.950271 seconds ago
+[2017-11-02T08:56:10Z] [network] Last Server activity was 11.708718 seconds ago
+[2017-11-02T08:56:10Z] [network] --> Send PING
+[2017-11-02T08:56:10Z] [network] <-- Received PONG
+[2017-11-02T08:56:22Z] [network] Last PING was 12.034690 seconds ago
+[2017-11-02T08:56:22Z] [network] Last Server activity was 11.863560 seconds ago
+[2017-11-02T08:56:22Z] [network] --> Send PING
+[2017-11-02T08:56:22Z] [network] <-- Received PONG
+[2017-11-02T08:56:34Z] [network] Last PING was 11.996844 seconds ago
+[2017-11-02T08:56:34Z] [network] Last Server activity was 11.777275 seconds ago
+[2017-11-02T08:56:34Z] [network] --> Send PING
+[2017-11-02T08:56:34Z] [network] <-- Received PONG
+[2017-11-02T08:56:46Z] [network] Last PING was 11.956782 seconds ago
+[2017-11-02T08:56:46Z] [network] Last Server activity was 11.816439 seconds ago
+[2017-11-02T08:56:46Z] [network] --> Send PING
+[2017-11-02T08:56:46Z] [network] <-- Received PONG
+[2017-11-02T08:56:58Z] [network] Last PING was 12.034426 seconds ago
+[2017-11-02T08:56:58Z] [network] Last Server activity was 11.813646 seconds ago
+[2017-11-02T08:56:58Z] [network] --> Send PING
+[2017-11-02T08:56:58Z] [network] <-- Received PONG
+[2017-11-02T08:57:10Z] [network] Last PING was 12.007308 seconds ago
+[2017-11-02T08:57:10Z] [network] Last Server activity was 11.836393 seconds ago
+[2017-11-02T08:57:10Z] [network] --> Send PING
+[2017-11-02T08:57:10Z] [network] <-- Received PONG
+[2017-11-02T08:57:22Z] [network] Last PING was 11.970513 seconds ago
+[2017-11-02T08:57:22Z] [network] Last Server activity was 11.729316 seconds ago
+[2017-11-02T08:57:22Z] [network] --> Send PING
+[2017-11-02T08:57:22Z] [network] <-- Received PONG
+[2017-11-02T08:57:34Z] [network] Last PING was 12.036701 seconds ago
+[2017-11-02T08:57:34Z] [network] Last Server activity was 11.784995 seconds ago
+[2017-11-02T08:57:34Z] [network] --> Send PING
+[2017-11-02T08:57:34Z] [network] <-- Received PONG
+[2017-11-02T08:57:46Z] [network] Last PING was 11.952040 seconds ago
+[2017-11-02T08:57:46Z] [network] Last Server activity was 11.755346 seconds ago
+[2017-11-02T08:57:46Z] [network] --> Send PING
+[2017-11-02T08:57:46Z] [network] <-- Received PONG
+[2017-11-02T08:57:58Z] [network] Last PING was 11.999096 seconds ago
+[2017-11-02T08:57:58Z] [network] Last Server activity was 11.777027 seconds ago
+[2017-11-02T08:57:58Z] [network] --> Send PING
+[2017-11-02T08:57:58Z] [network] <-- Received PONG
+[2017-11-02T08:58:10Z] [network] Last PING was 12.037588 seconds ago
+[2017-11-02T08:58:10Z] [network] Last Server activity was 11.833504 seconds ago
+[2017-11-02T08:58:10Z] [network] --> Send PING
+[2017-11-02T08:58:10Z] [network] <-- Received PONG
+[2017-11-02T08:58:22Z] [network] Last PING was 11.955428 seconds ago
+[2017-11-02T08:58:22Z] [network] Last Server activity was 11.707609 seconds ago
+[2017-11-02T08:58:22Z] [network] --> Send PING
+[2017-11-02T08:58:22Z] [network] <-- Received PONG
+[2017-11-02T08:58:34Z] [network] Last PING was 12.050280 seconds ago
+[2017-11-02T08:58:34Z] [network] Last Server activity was 11.878988 seconds ago
+[2017-11-02T08:58:34Z] [network] --> Send PING
+[2017-11-02T08:58:34Z] [network] <-- Received PONG
+[2017-11-02T08:58:46Z] [network] Last PING was 11.961424 seconds ago
+[2017-11-02T08:58:46Z] [network] Last Server activity was 11.760222 seconds ago
+[2017-11-02T08:58:46Z] [network] --> Send PING
+[2017-11-02T08:58:46Z] [network] <-- Received PONG
+[2017-11-02T08:58:58Z] [network] Last PING was 12.032501 seconds ago
+[2017-11-02T08:58:58Z] [network] Last Server activity was 11.812351 seconds ago
+[2017-11-02T08:58:58Z] [network] --> Send PING
+[2017-11-02T08:58:58Z] [network] <-- Received PONG
+[2017-11-02T08:59:10Z] [network] Last PING was 11.989066 seconds ago
+[2017-11-02T08:59:10Z] [network] Last Server activity was 11.819791 seconds ago
+[2017-11-02T08:59:10Z] [network] --> Send PING
+[2017-11-02T08:59:10Z] [network] <-- Received PONG
+[2017-11-02T08:59:22Z] [network] Last PING was 11.957250 seconds ago
+[2017-11-02T08:59:22Z] [network] Last Server activity was 11.797691 seconds ago
+[2017-11-02T08:59:22Z] [network] --> Send PING
+[2017-11-02T08:59:22Z] [network] <-- Received PONG
+[2017-11-02T08:59:34Z] [network] Last PING was 12.049063 seconds ago
+[2017-11-02T08:59:34Z] [network] Last Server activity was 11.868311 seconds ago
+[2017-11-02T08:59:34Z] [network] --> Send PING
+[2017-11-02T08:59:34Z] [network] <-- Received PONG
+[2017-11-02T08:59:46Z] [network] Last PING was 11.966413 seconds ago
+[2017-11-02T08:59:46Z] [network] Last Server activity was 11.751369 seconds ago
+[2017-11-02T08:59:46Z] [network] --> Send PING
+[2017-11-02T08:59:46Z] [network] <-- Received PONG
+[2017-11-02T08:59:58Z] [network] Last PING was 11.977710 seconds ago
+[2017-11-02T08:59:58Z] [network] Last Server activity was 11.648560 seconds ago
+[2017-11-02T08:59:58Z] [network] --> Send PING
+[2017-11-02T08:59:58Z] [network] <-- Received PONG
